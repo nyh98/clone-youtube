@@ -4,7 +4,7 @@ import MainLogo from './element/MainLogo';
 
 export default function LeftNavbar() {
   return (
-    <div className="flex ">
+    <div className="flex h-14 w-auto ">
       <HamburgerMenu />
       <MainLogo />
     </div>

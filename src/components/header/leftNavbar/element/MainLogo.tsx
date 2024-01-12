@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 export default function MainLogo() {
   return (
-    <Link to="/" className="flex mt-2">
+    <Link to="/" className="flex items-center ml-4 w-auto">
       <img
         src="https://developers.google.com/static/site-assets/logo-youtube.svg"
         alt="logo"
-        className="w-5 h-6"
+        className="h-5"
       />
-      <p className="ml-1 pt-0.5 font-bold text-sm">YongTube</p>
+      <div className="mb-2.5 ml-1 h-5 font-bold text-xl">YongTube</div>
     </Link>
   );
 }
