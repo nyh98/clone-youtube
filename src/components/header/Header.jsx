@@ -1,12 +1,12 @@
 import React from 'react';
-import HamburgerMenu from './leftNavbar/element/HamburgerMenu';
-import MainLogo from './leftNavbar/element/MainLogo';
 import LeftNavbar from './leftNavbar/LeftNavbar';
+import SearchBar from './searchBar/SearchBar';
 
 export default function Header() {
   return (
     <div className="flex ">
       <LeftNavbar />
+      <SearchBar />
     </div>
   );
 }
