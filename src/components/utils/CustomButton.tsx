@@ -8,7 +8,7 @@ export default function CustomButton({ children }: ButtonProps) {
   return (
     <div className="relative group w-10 h-auto justify-center items-center flex">
       {children}
-      <div className=" w-10 h-10  rounded-full absolute group-hover:bg-stone-300 opacity-25"></div>
+      <div className="w-10 h-10  rounded-full absolute group-hover:bg-stone-300 opacity-25"></div>
     </div>
   );
 }

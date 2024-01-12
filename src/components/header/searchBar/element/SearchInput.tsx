@@ -4,7 +4,7 @@ import SearchButton from './SearchButton';
 export default function SearchInput() {
   return (
     <div className="h-10 w-full">
-      <form action="" className="w-full flex">
+      <form action="" className="flex">
         <input
           placeholder="검색"
           type="text"
