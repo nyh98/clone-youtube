@@ -9,7 +9,9 @@ export default function MainLogo() {
         alt="logo"
         className="h-5"
       />
-      <div className="mb-2.5 ml-1 h-5 font-bold text-xl">YongTube</div>
+      <div className="mb-2.5 ml-1 h-5 font-bold text-xl dark:text-white">
+        YongTube
+      </div>
     </Link>
   );
 }

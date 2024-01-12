@@ -4,7 +4,7 @@ import SideNav from '../components/side/SideNav';
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-full w-full absolute">
       <Header />
       <SideNav />
     </div>

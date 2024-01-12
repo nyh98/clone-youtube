@@ -5,7 +5,7 @@ import RightNavbar from './rightNavbar/RightNavbar';
 
 export default function Header() {
   return (
-    <div className="flex justify-between px-4">
+    <div className="flex justify-between px-4 dark:bg-zinc-900">
       <LeftNavbar />
       <SearchBar />
       <RightNavbar />
