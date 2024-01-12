@@ -9,7 +9,6 @@ export default function LeftNavbar() {
       <CustomButton>
         <HamburgerMenu />
       </CustomButton>
-
       <MainLogo />
     </nav>
   );
