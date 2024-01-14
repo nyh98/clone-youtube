@@ -1,8 +1,9 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
-import PopularVideos from './components/main/PopularVideos';
+import PopularVideos from './pages/videos/PopularVideos';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import ErrorPage from './pages/ErrorPage';
+import VideoDetail from './pages/videos/VideoDetail';
 
 function App() {
   const queryClient = new QueryClient();
@@ -19,7 +20,7 @@ function App() {
         },
         {
           path: '/video/:videoId',
-          element: <>비디오 페이지</>,
+          element: <VideoDetail />,
         },
       ],
     },

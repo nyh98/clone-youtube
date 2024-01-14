@@ -1,8 +1,9 @@
 import React from 'react';
-import VideoBox from './element/VideoBox';
+import VideoBox from '../../components/main/VideoBox';
 import { useQuery } from 'react-query';
 import getPopularVideos from '../../APIs/getPopularVideos';
-import LoadingPage from '../../pages/LoadingPage';
+import LoadingPage from '../LoadingPage';
+import ErrorPage from '../ErrorPage';
 
 interface item {
   [key: string]: any;
@@ -16,7 +17,7 @@ export default function PopularVideos() {
 
   if (isLoading) return <LoadingPage />;
 
-  if (error) return <>에러페이지</>;
+  if (error) return <ErrorPage />;
 
   const { items } = data;
 
