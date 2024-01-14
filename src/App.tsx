@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import PopularVideos from './components/main/PopularVideos';
 import { QueryClient, QueryClientProvider } from 'react-query';
+import ErrorPage from './pages/ErrorPage';
 
 function App() {
   const queryClient = new QueryClient();
@@ -9,7 +10,7 @@ function App() {
     {
       path: '/',
       element: <Home />,
-      errorElement: <>에러 페이지 만들자</>,
+      errorElement: <ErrorPage />,
       children: [
         {
           path: '/',

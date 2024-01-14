@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../components/header/Header';
 import SideNav from '../components/side/SideNav';
 import { Outlet } from 'react-router-dom';
-import LoadingPage from './LoadingPage';
 
 export default function Home() {
   return (
@@ -11,7 +10,6 @@ export default function Home() {
       <div className="flex w-full h-full">
         <SideNav />
         <main className="px-5 pt-20 w-full h-full overflow-auto dark:text-white">
-          {/* <LoadingPage /> */}
           <Outlet />
         </main>
       </div>
