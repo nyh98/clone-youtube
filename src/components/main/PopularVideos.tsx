@@ -1,20 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import VideoBox from './element/VideoBox';
 import { useQuery } from 'react-query';
 import getPopularVideos from '../../APIs/getPopularVideos';
-
-interface popular {
-  [key: string]: any;
-}
 
 interface item {
   [key: string]: any;
 }
 
 export default function PopularVideos() {
-  const { isLoading, error, data } = useQuery('popularData', getPopularVideos);
+  const { isLoading, error, data } = useQuery('popularData', getPopularVideos, {
+    staleTime: 1000,
+    refetchOnWindowFocus: false, // 개발중 포커스 업데이트 기능 off
+  });
+
+  if (isLoading) return <div>로딩중</div>;
+
+  if (error) return <>에러페이지</>;
 
   const { items } = data;
+
   return (
     <div className="flex flex-wrap justify-center">
       {items &&
