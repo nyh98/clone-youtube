@@ -2,15 +2,17 @@ import React from 'react';
 import Header from '../components/header/Header';
 import SideNav from '../components/side/SideNav';
 import { Outlet } from 'react-router-dom';
+import LoadingPage from './LoadingPage';
 
 export default function Home() {
   return (
-    <div className="h-full w-full relative">
+    <div className="h-full w-full absolute dark:bg-zinc-900">
       <Header />
-      <div className="flex h-full dark:bg-zinc-900">
+      <div className="flex w-full h-full">
         <SideNav />
-        <main className="mx-5 mt-20 w-full overflow-auto  dark:text-white">
-          <Outlet />
+        <main className="px-5 pt-20 w-full h-full overflow-auto dark:text-white">
+          <LoadingPage />
+          {/* <Outlet /> */}
         </main>
       </div>
     </div>
