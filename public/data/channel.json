@@ -1,0 +1,100 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "uQgAS6-V9Nlyr5zDCRy2qnX0qck",
+  "pageInfo": {
+    "totalResults": 2,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "YtSGcq_M2aY-9KcEpVssUzLWeb0",
+      "id": "UC2t5bjwHdUX4vM2g8TRDq5g",
+      "snippet": {
+        "title": "League of Legends",
+        "description": "Recently recognized as the most played video game in the world—100 million play every month—League of Legends® is a multiplayer online battle arena game (MOBA).\n\nPlayers choose a role from an expanding cast of powerful champions and join forces in strategic, fast-paced gameplay to take control of the enemy’s end of the battlefield.\n\nSign up for a free League of Legends account at http://riot.com/signup",
+        "customUrl": "@leagueoflegends",
+        "publishedAt": "2009-02-09T20:19:08Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/woRwannSpx4E4JD7IMDXouVVAfZVydv_0entKmEWBYwp9BF4OpTQceRsxF7U5xlbPRasIzljIw=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/woRwannSpx4E4JD7IMDXouVVAfZVydv_0entKmEWBYwp9BF4OpTQceRsxF7U5xlbPRasIzljIw=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/woRwannSpx4E4JD7IMDXouVVAfZVydv_0entKmEWBYwp9BF4OpTQceRsxF7U5xlbPRasIzljIw=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "League of Legends",
+          "description": "Recently recognized as the most played video game in the world—100 million play every month—League of Legends® is a multiplayer online battle arena game (MOBA).\n\nPlayers choose a role from an expanding cast of powerful champions and join forces in strategic, fast-paced gameplay to take control of the enemy’s end of the battlefield.\n\nSign up for a free League of Legends account at http://riot.com/signup"
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UU2t5bjwHdUX4vM2g8TRDq5g"
+        }
+      },
+      "statistics": {
+        "viewCount": "7638446249",
+        "subscriberCount": "15300000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "1426"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "YhDD_QBx44UBImyBDuI2JpQVzAs",
+      "id": "UCF3UEVPt5zZTlBVJwDG317g",
+      "snippet": {
+        "title": "JTBC Voyage",
+        "description": "다채롭게 덕질하는 편집요정 채널◞.*✧\n☞ https://jtbc.co.kr/",
+        "customUrl": "@jtbcvoyage",
+        "publishedAt": "2013-03-28T10:54:00Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/LjGoq9rEwlUNNKHGZmbVMoC2Z6g9QULdshHqr6TJHOQ4_nqbGaRd9D7AZcITnzCJdXx3qXDYFnA=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/LjGoq9rEwlUNNKHGZmbVMoC2Z6g9QULdshHqr6TJHOQ4_nqbGaRd9D7AZcITnzCJdXx3qXDYFnA=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/LjGoq9rEwlUNNKHGZmbVMoC2Z6g9QULdshHqr6TJHOQ4_nqbGaRd9D7AZcITnzCJdXx3qXDYFnA=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "JTBC Voyage",
+          "description": "다채롭게 덕질하는 편집요정 채널◞.*✧\n☞ https://jtbc.co.kr/"
+        },
+        "country": "KR"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUF3UEVPt5zZTlBVJwDG317g"
+        }
+      },
+      "statistics": {
+        "viewCount": "5620186015",
+        "subscriberCount": "4010000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "13120"
+      }
+    }
+  ]
+}

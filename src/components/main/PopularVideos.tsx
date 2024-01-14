@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import VideoBox from './element/VideoBox';
+import { useQuery } from 'react-query';
+import getPopularVideos from '../../APIs/getPopularVideos';
 
 interface popular {
   [key: string]: any;
@@ -10,18 +12,11 @@ interface item {
 }
 
 export default function PopularVideos() {
-  const [videos, setVideos] = useState<popular>({});
+  const { isLoading, error, data } = useQuery('popularData', getPopularVideos);
 
-  useEffect(() => {
-    fetch('data/popular.json') //
-      .then(res => res.json())
-      .then(data => setVideos(data));
-  }, []);
-
-  const { items } = videos;
-
+  const { items } = data;
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap justify-center">
       {items &&
         items.map((item: item) => (
           <VideoBox
@@ -31,12 +26,4 @@ export default function PopularVideos() {
         ))}
     </div>
   );
-
-  //   return (
-  //     <div>
-  //       {items.map((item: item) => (
-  //         <div>{item['snippet']['title']}</div>
-  //       ))}
-  //     </div>
-  //   );
 }
