@@ -15,7 +15,11 @@ function App() {
         {
           path: '/',
           element: <PopularVideos />,
-          errorElement: <>에러 페이지</>,
+          errorElement: <ErrorPage />,
+        },
+        {
+          path: '/video/:videoId',
+          element: <>비디오 페이지</>,
         },
       ],
     },

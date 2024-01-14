@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div className="h-full w-full absolute dark:bg-zinc-900">
       <Header />
-      <div className="flex w-full h-full">
+      <div className="flex w-full h-[90%]">
         <SideNav />
-        <main className="px-5 pt-20 w-full h-full overflow-auto dark:text-white">
+        <main className="px-5 pt-10 w-full h-full overflow-auto dark:text-white">
           <Outlet />
         </main>
       </div>

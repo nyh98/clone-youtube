@@ -25,8 +25,10 @@ export default function PopularVideos() {
       {items &&
         items.map((item: item) => (
           <VideoBox
+            key={item.id}
             title={item.snippet.title}
             thumbnail={item.snippet.thumbnails.medium.url}
+            link={item.id}
           />
         ))}
     </div>

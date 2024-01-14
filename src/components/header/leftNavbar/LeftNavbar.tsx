@@ -5,7 +5,7 @@ import CustomButton from '../../utils/CustomButton';
 
 export default function LeftNavbar() {
   return (
-    <nav className="flex h-14 w-auto ">
+    <nav className="flex">
       <CustomButton>
         <HamburgerMenu />
       </CustomButton>
