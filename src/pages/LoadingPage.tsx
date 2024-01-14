@@ -1,9 +1,10 @@
 import React from 'react';
+import { AiOutlineLoading } from 'react-icons/ai';
 
 export default function LoadingPage() {
   return (
-    <div className="h-full w-full bg-slate-500 flex justify-center items-center relative opacity-20">
-      <div className=""></div>
+    <div className="h-full w-full flex justify-center items-center opacity-20">
+      <AiOutlineLoading className="h-1/4 w-1/5 animate-spin" />
     </div>
   );
 }
