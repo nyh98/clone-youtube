@@ -4,16 +4,14 @@ import { useQuery } from 'react-query';
 import getPopularVideos from '../../APIs/getPopularVideos';
 import LoadingPage from '../LoadingPage';
 import ErrorPage from '../ErrorPage';
+import useGetPopularVideos from '../../hooks/useGetPopularVideos';
 
 interface item {
   [key: string]: any;
 }
 
 export default function PopularVideos() {
-  const { isLoading, error, data } = useQuery('popularData', getPopularVideos, {
-    staleTime: 1000 * 60 * 5,
-    refetchOnWindowFocus: false, // 개발중 포커스 업데이트 기능 off
-  });
+  const { isLoading, error, data } = useGetPopularVideos();
 
   if (isLoading) return <LoadingPage />;
 
