@@ -8,9 +8,6 @@ import ErrorPage from '../ErrorPage';
 interface item {
   [key: string]: any;
 }
-/* https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=25&regionCode=KR&key=[YOUR_API_KEY] 
-   한국 인기동영상 25개 요청 
-*/
 
 export default function PopularVideos() {
   const { isLoading, error, data } = useQuery('popularData', getPopularVideos, {
@@ -33,6 +30,7 @@ export default function PopularVideos() {
             title={item.snippet.title}
             thumbnail={item.snippet.thumbnails.medium.url}
             link={item.id}
+            publishedAt={item.snippet.publishedAt}
           />
         ))}
     </div>

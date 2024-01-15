@@ -1,0 +1,351 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "etag": "cKG-HmXz-QTp7aWTVMjvYdnJ_Rk",
+  "nextPageToken": "Z2V0X25ld2VzdF9maXJzdC0tQ2dnSWdBUVZGN2ZST0JJRkNJa2dHQUFTQlFpSElCZ0FFZ1VJblNBWUFSSUZDSWdnR0FBWUFDSU5DZ3NJdjZLVXJRWVE0T2ZSVXc=",
+  "pageInfo": {
+    "totalResults": 10,
+    "resultsPerPage": 10
+  },
+  "items": [
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Glesat_Lj7sa5kyYFl1F3VqhOxk",
+      "id": "Ugzx_8axUwGWOUw2SYp4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "hDgN2ICkY94",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "6aabncDCdmx9MBOfZ2E5poZ43kM",
+          "id": "Ugzx_8axUwGWOUw2SYp4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "hDgN2ICkY94",
+            "textDisplay": "전상협 고객님 ~ 리뷰 부탁드려도 괜찮으실까요 ?",
+            "textOriginal": "전상협 고객님 ~ 리뷰 부탁드려도 괜찮으실까요 ?",
+            "authorDisplayName": "@kiudesign",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTxtyPaei6v2dQLRb9OcFoy9YG3wfzzTdDYdj-niQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCIZ5rCTYJ0s16FgT7OetVEQ",
+            "authorChannelId": {
+              "value": "UCIZ5rCTYJ0s16FgT7OetVEQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 7984,
+            "publishedAt": "2024-01-11T09:26:25Z",
+            "updatedAt": "2024-01-11T09:26:25Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 56,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "DIhT-PhziLViiBdT24bwxlzmRUA",
+      "id": "Ugwi8DSjfKbJK3A3BAR4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "hDgN2ICkY94",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "C-3hewyXJE5eK1zqeeBqOIpp9Oo",
+          "id": "Ugwi8DSjfKbJK3A3BAR4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "hDgN2ICkY94",
+            "textDisplay": "담당 디자이너가 이제 실장급 되면 진짜 리뷰 쓰던 말던 신경도 안쓰시고 처음이나 1회성 고객인지 단골이 될지 모르니까 리뷰 부탁 드린다고 하지 4년 넘게 다니니까 리뷰 언급은 커녕 매번 찾아주는 것만으로도 좋아하심 영상이 너무 똑같아서 ㅋㅋㅋㅋㅋ 맘에 안 들면 단칼에 안 안찾게 헤어샵이라 이건 남녀 불문 아닐까 싶네요.",
+            "textOriginal": "담당 디자이너가 이제 실장급 되면 진짜 리뷰 쓰던 말던 신경도 안쓰시고 처음이나 1회성 고객인지 단골이 될지 모르니까 리뷰 부탁 드린다고 하지 4년 넘게 다니니까 리뷰 언급은 커녕 매번 찾아주는 것만으로도 좋아하심 영상이 너무 똑같아서 ㅋㅋㅋㅋㅋ 맘에 안 들면 단칼에 안 안찾게 헤어샵이라 이건 남녀 불문 아닐까 싶네요.",
+            "authorDisplayName": "@thatyouloveme",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSRQkJ6FZaqwZfl02XQ6TQrokWSA-32URdpSMSD=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCWvrBUaTq9tGRlOZOZ5X0lA",
+            "authorChannelId": {
+              "value": "UCWvrBUaTq9tGRlOZOZ5X0lA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-01-15T12:00:55Z",
+            "updatedAt": "2024-01-15T12:00:55Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "t9dcgOvp_5IPFbuqxtZtIiaah1s",
+      "id": "UgwCWHX2fh2rmt5i7-t4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "hDgN2ICkY94",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Y5Fd1L11UhmNiB21lRKOBEoCQ6E",
+          "id": "UgwCWHX2fh2rmt5i7-t4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "hDgN2ICkY94",
+            "textDisplay": "진짜 좋아서 자주 다니다가도 리뷰 요청하면 네 써드릴게요 하고 다신 안감 ㅋㅋㅋㅋㅋㅋ",
+            "textOriginal": "진짜 좋아서 자주 다니다가도 리뷰 요청하면 네 써드릴게요 하고 다신 안감 ㅋㅋㅋㅋㅋㅋ",
+            "authorDisplayName": "@DDOONG2-cone",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/im0g748_JLKENU3tStAqa0n-DD_shO-gj2LGZdvKpyiOavtsfKTNIdWo-GkpWWU4z1Vay-JV=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCoXAwBy1SjI5KL17r_aEJzg",
+            "authorChannelId": {
+              "value": "UCoXAwBy1SjI5KL17r_aEJzg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-01-15T11:59:38Z",
+            "updatedAt": "2024-01-15T11:59:38Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "gdNvP6sgbojZXpVliRScsOV1NkQ",
+      "id": "Ugx8PiUISdY6tOwx6OZ4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "hDgN2ICkY94",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "DH5EXrJ7WohlUnFrM7dQVsP6kuY",
+          "id": "Ugx8PiUISdY6tOwx6OZ4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "hDgN2ICkY94",
+            "textDisplay": "ㅋㅋㅋㅋㅋ 방문목적 샴푸가 90.....",
+            "textOriginal": "ㅋㅋㅋㅋㅋ 방문목적 샴푸가 90.....",
+            "authorDisplayName": "@user-hj8js4qz6e",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/zCDIcCepA72GReh-5AaFCjZfkXfkGMo2KwEZiLM9HggosXhG0ODGBzc7LcnGBwZHfb2uP8Of=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCkLImB1l7_RN-h1SiFvo9bg",
+            "authorChannelId": {
+              "value": "UCkLImB1l7_RN-h1SiFvo9bg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-01-15T11:57:02Z",
+            "updatedAt": "2024-01-15T11:57:02Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "M1PxKiP6hfTuWkK36EtoyXKEDp8",
+      "id": "UgwMLBOeNzvMmxdFGNJ4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "hDgN2ICkY94",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "PDGF1rNgT9lbLXDgc5lHzLhhGlQ",
+          "id": "UgwMLBOeNzvMmxdFGNJ4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "hDgN2ICkY94",
+            "textDisplay": "리뷰는 괜찮고 그냥 자주갈게요..",
+            "textOriginal": "리뷰는 괜찮고 그냥 자주갈게요..",
+            "authorDisplayName": "@user-ge7tf9py8h",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZT6_XBsvpVhnsdBj4dLhRNZPvwQWgWufghORidr9Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCJpK_q5o7E_XnJpp_CQFKEA",
+            "authorChannelId": {
+              "value": "UCJpK_q5o7E_XnJpp_CQFKEA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-01-15T11:50:16Z",
+            "updatedAt": "2024-01-15T11:50:16Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ZemuK4QGeGr0N43XKSGc53auWNY",
+      "id": "Ugxsfkb7_L1kagQvhUl4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "hDgN2ICkY94",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "nU_wMwz6zBhY-1bfNfv0uAYpCnU",
+          "id": "Ugxsfkb7_L1kagQvhUl4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "hDgN2ICkY94",
+            "textDisplay": "머리 깎는 사람보고 실장이니 ㅇㅈㄹ하는 거 넘 역겹",
+            "textOriginal": "머리 깎는 사람보고 실장이니 ㅇㅈㄹ하는 거 넘 역겹",
+            "authorDisplayName": "@none5035",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSWA3DY2BQq4Gd59FNq7RkYpQwGwSx8WsQiFe_kfA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCLtDEq1IBa3VSaFuId1UpKA",
+            "authorChannelId": {
+              "value": "UCLtDEq1IBa3VSaFuId1UpKA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-01-15T11:37:10Z",
+            "updatedAt": "2024-01-15T11:37:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "bDhN-UxXDoSN2FwS9zFlUu3HzzY",
+      "id": "UgyzTwjw05lWRjhMRtp4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "hDgN2ICkY94",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "GlMl_dgSsIVCg1BNjc4cKpPcaNo",
+          "id": "UgyzTwjw05lWRjhMRtp4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "hDgN2ICkY94",
+            "textDisplay": "말 안거는게 제일 좋음 ㅎㅎ",
+            "textOriginal": "말 안거는게 제일 좋음 ㅎㅎ",
+            "authorDisplayName": "@user-mx7zb1zc9n",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQJLOvj_BLHkctbM37T8g1vIr2H7pDcw4eAcw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCH7Ft28PHyeB2Fh2qY_PYtg",
+            "authorChannelId": {
+              "value": "UCH7Ft28PHyeB2Fh2qY_PYtg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-01-15T11:26:57Z",
+            "updatedAt": "2024-01-15T11:26:57Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "lzvs2DBasvRM-V6ugzo6A2szjR4",
+      "id": "UgyB_jxHqX6oALBYwZ94AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "hDgN2ICkY94",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "S8bqrXPmRsJUYok-GLvtUe41DpY",
+          "id": "UgyB_jxHqX6oALBYwZ94AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "hDgN2ICkY94",
+            "textDisplay": "오~ 마지막에 기우쌤 반가워요~~\u003cbr\u003e찰떡 콜라보네요~~ㅎㅎ",
+            "textOriginal": "오~ 마지막에 기우쌤 반가워요~~\n찰떡 콜라보네요~~ㅎㅎ",
+            "authorDisplayName": "@user-dn8qn3sx9j",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTp0EpqpxMDRC_YV_NtzpolLhgIudlFzHsoE1_u=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC3NxF9CWuHAzNWj6QhVU40Q",
+            "authorChannelId": {
+              "value": "UC3NxF9CWuHAzNWj6QhVU40Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-01-15T11:23:08Z",
+            "updatedAt": "2024-01-15T11:23:08Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "EleoAykvp-ZAUUDraw-TfnjQ98o",
+      "id": "UgyUEeHb3pIpMzaiW094AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "hDgN2ICkY94",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Ikkj81f-lj79dCapmVo27jq870Q",
+          "id": "UgyUEeHb3pIpMzaiW094AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "hDgN2ICkY94",
+            "textDisplay": "ㅋㅋㅋㅋ ( ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ)",
+            "textOriginal": "ㅋㅋㅋㅋ ( ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ)",
+            "authorDisplayName": "@user-nn9fi6uo7p",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQlbl2x5RVBsJPM2kJDMUv6SvuoRT3RIkIMZUQdFUOCqg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC-eRw8G11Yj5zFpM89XPeNQ",
+            "authorChannelId": {
+              "value": "UC-eRw8G11Yj5zFpM89XPeNQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-01-15T11:05:57Z",
+            "updatedAt": "2024-01-15T11:05:57Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "S3JwuWBxk0En1usTmZVxCRrx38Y",
+      "id": "UgwujyoR367i2l6qJip4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "hDgN2ICkY94",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "nnFK8x4bv68YlZy0Wb_a4XxZcuE",
+          "id": "UgwujyoR367i2l6qJip4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "hDgN2ICkY94",
+            "textDisplay": "자주 가던 30 중후반 여사장 미용실 있었는데\u003cbr\u003e\u003cbr\u003e어느날 부터 말 걸길래 예 예 했는데 원래 그렇게 말이 없으신가 봐요 해서\u003cbr\u003e\u003cbr\u003e네 그죠 하고 넘겼는데 그 이후로 안감",
+            "textOriginal": "자주 가던 30 중후반 여사장 미용실 있었는데\n\n어느날 부터 말 걸길래 예 예 했는데 원래 그렇게 말이 없으신가 봐요 해서\n\n네 그죠 하고 넘겼는데 그 이후로 안감",
+            "authorDisplayName": "@darkline9868",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSeu2Z1nCUHtsBBKowtoGIheaLMca1QAArJfsx96usU6Zj0xBdo7NuOGy9ZkKwk=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCnCrGmjZRf5ulEIzIqwAOjg",
+            "authorChannelId": {
+              "value": "UCnCrGmjZRf5ulEIzIqwAOjg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-01-15T11:04:31Z",
+            "updatedAt": "2024-01-15T11:04:31Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    }
+  ]
+}
