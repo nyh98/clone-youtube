@@ -56,13 +56,12 @@ export default function VideoBox({
         <img src={thumbnail} className="h-2/3 rounded-2xl"></img>
       </Link>
       <div className="flex flex-col">
-        <div className="line-clamp-2 dark:font-bold">{title}</div>
-
+        <div className="line-clamp-2 font-semibold">{title}</div>
         <div className="font-thin">
-          <PiTelevision className="inline-block" /> {channelTitle}
-          <div>
-            {getRelativeViewCount()} {getRelativeTime()}
-          </div>
+          <p className="line-clamp-1">
+            <PiTelevision className="inline-block" /> {channelTitle}
+          </p>
+          {getRelativeViewCount()} {getRelativeTime()}
         </div>
       </div>
     </div>
