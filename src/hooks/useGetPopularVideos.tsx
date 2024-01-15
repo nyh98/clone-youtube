@@ -1,6 +1,7 @@
 import React from 'react';
 import { useQuery } from 'react-query';
 import getPopularVideos from '../APIs/getPopularVideos';
+import getVideoComment from '../APIs/getVideoComment';
 
 export default function useGetPopularVideos() {
   console.log('인기 동영상 훅 데이터 요청중..');
