@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { PiTelevision } from 'react-icons/pi';
 
 interface videos {
-  title: string;
-  thumbnail: string;
-  link: string;
-  publishedAt: string;
+  [key: string]: string;
 }
 
 export default function VideoBox({
@@ -13,6 +11,8 @@ export default function VideoBox({
   thumbnail,
   link,
   publishedAt,
+  channelTitle,
+  viewCount,
 }: videos) {
   function getRelativeTime() {
     const currentDate = new Date().getTime();
@@ -38,14 +38,32 @@ export default function VideoBox({
     return '방금 전';
   }
 
+  function getRelativeViewCount() {
+    const scale = Math.floor(+viewCount / 10000); //만 단위로 나눔
+
+    if (scale >= 10000) {
+      return `조회수 ${Math.floor(scale / 10000)}억회`;
+    } else if (scale > 0) {
+      return `조회수 ${Math.floor(scale)}만회`;
+    }
+
+    return `조회수 ${scale.toLocaleString('ko-KR')}회`;
+  }
+
   return (
     <div className="w-[360px] h-80 mx-3">
       <Link to={`/video/${link}`}>
         <img src={thumbnail} className="h-2/3 rounded-2xl"></img>
       </Link>
       <div className="flex flex-col">
-        <div className="h-11 line-clamp-2 ">{title}</div>
-        <div>{getRelativeTime()}</div>
+        <div className="line-clamp-2 dark:font-bold">{title}</div>
+
+        <div className="font-thin">
+          <PiTelevision className="inline-block" /> {channelTitle}
+          <div>
+            {getRelativeViewCount()} {getRelativeTime()}
+          </div>
+        </div>
       </div>
     </div>
   );
