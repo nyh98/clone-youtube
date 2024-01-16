@@ -2,7 +2,7 @@
    한국 인기동영상 25개 요청 
 */
 
-import getChannelDetail from './getPopularProfile';
+import getChannelDetail from './getChannelDetail';
 
 interface Item {
   [key: string]: any;
