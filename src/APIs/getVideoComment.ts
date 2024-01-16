@@ -1,4 +1,4 @@
-export default async function getVideoComment() {
+export default async function getVideoComment(videoId: string) {
   console.log('댓글 데이터 요청중');
   return fetch('data/videoComment.json').then(res => res.json());
 }

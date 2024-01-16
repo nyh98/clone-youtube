@@ -10,6 +10,7 @@ export default async function getChannelDetail(channelIds: string) {
     .then(data =>
       data.items.map((item: Item) => {
         return {
+          channelTitle: item.snippet.title,
           channelId: item.id,
           profileURL: item.snippet.thumbnails.medium.url,
           subscriberCount: item.statistics.subscriberCount,

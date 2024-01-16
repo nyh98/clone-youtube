@@ -1,0 +1,86 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "BR3P6aucNaxEy5LLg6wBqKcyR7c",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "sS3-0OLGlJAWAnt9SHr-3uQEGJ4",
+      "id": "dnPgPV_m4KE",
+      "snippet": {
+        "publishedAt": "2024-01-11T15:31:59Z",
+        "channelId": "UCF3UEVPt5zZTlBVJwDG317g",
+        "title": "파이널 1차전 신곡 미션 영상 | 홍이삭 - I Love You(Prod. 김도훈) | 싱어게인3 | JTBC 240111 방송 외",
+        "description": "파이널 1차전 신곡 미션 영상\n🎵 홍이삭 - I Love You\n\n파이널 1차전 신곡 미션 영상의 좋아요&조회수가\n싱어게인3 최종 우승자 선정에 반영됩니다.\n\n👉집계 기간: ~ 1/17(수) 23:59(KST)\n\n#싱어게인3 #신곡미션영상 #58호가수 #홍이삭 #ILoveYou",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dnPgPV_m4KE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dnPgPV_m4KE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dnPgPV_m4KE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dnPgPV_m4KE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dnPgPV_m4KE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "JTBC Voyage",
+        "tags": [
+          "genre:오디션",
+          "format:큐레이션",
+          "source:음악",
+          "type:방송",
+          "series:싱어게인3",
+          "topic:무대",
+          "person:홍이삭",
+          "싱어게인3",
+          "싱어게인",
+          "싱어게인2",
+          "싱어게인 다시보기",
+          "싱어게인 레전드",
+          "싱어게인 명장면",
+          "싱어게인 심사위원",
+          "싱어게인3 이승기",
+          "싱어게인3 윤종신",
+          "싱어게인3 임재범",
+          "싱어게인3 백지영",
+          "규현 이승기",
+          "싱어게인 심사평",
+          "싱어게인3 이해리",
+          "싱어게인 코드쿤스트",
+          "싱어게인3 홍이삭"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "파이널 1차전 신곡 미션 영상 | 홍이삭 - I Love You(Prod. 김도훈) | 싱어게인3 | JTBC 240111 방송 외",
+          "description": "파이널 1차전 신곡 미션 영상\n🎵 홍이삭 - I Love You\n\n파이널 1차전 신곡 미션 영상의 좋아요&조회수가\n싱어게인3 최종 우승자 선정에 반영됩니다.\n\n👉집계 기간: ~ 1/17(수) 23:59(KST)\n\n#싱어게인3 #신곡미션영상 #58호가수 #홍이삭 #ILoveYou"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "1609848",
+        "favoriteCount": "0",
+        "commentCount": "9666"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
