@@ -2,7 +2,7 @@ interface Item {
   [key: string]: any;
 }
 
-export default async function getPopularProfile(channelIds: string) {
+export default async function getChannelDetail(channelIds: string) {
   console.log('인기 동영상 채널 정보 요청중...');
 
   return fetch('data/channel.json')

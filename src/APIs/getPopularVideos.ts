@@ -2,7 +2,7 @@
    한국 인기동영상 25개 요청 
 */
 
-import getPopularProfile from './getPopularProfile';
+import getChannelDetail from './getPopularProfile';
 
 interface Item {
   [key: string]: any;
@@ -18,7 +18,7 @@ export default async function getPopularVideos() {
         .map((item: Item) => '&id=' + item.snippet.channelId)
         .join('');
 
-      const profiles = await getPopularProfile('channelIds');
+      const profiles = await getChannelDetail('channelIds'); //해당 채널 정보 get
 
       return { videos, profiles };
     });
