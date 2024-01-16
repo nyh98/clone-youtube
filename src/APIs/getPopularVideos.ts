@@ -10,14 +10,14 @@ interface Item {
 
 export default async function getPopularVideos() {
   console.log('인기 동영상 데이터 요청 중...');
-  return fetch('/data/popular.json') //인기 동영상 요청
+  return fetch('data/popular.json') //인기 동영상 요청
     .then(res => res.json())
     .then(async videos => {
       //channelId 추출
       const channelIds = videos.items
         .map((item: Item) => '&id=' + item.snippet.channelId)
         .join('');
-      console.log(channelIds);
+
       const profiles = await getPopularProfile('channelIds');
 
       return { videos, profiles };

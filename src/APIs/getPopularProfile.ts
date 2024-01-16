@@ -5,17 +5,16 @@ interface Item {
 export default async function getPopularProfile(channelIds: string) {
   console.log('인기 동영상 프로필 요청중...');
 
-  return fetch('data/channelId.json')
+  return fetch('data/channel.json')
     .then(res => res.json())
-    .then(data => {
-      console.log(data);
-      return data.items.map((item: Item) => {
+    .then(data =>
+      data.items.map((item: Item) => {
         return {
           channelId: item.id,
           profileURL: item.snippet.thumbnails.medium.url,
         };
-      });
-    });
+      })
+    );
 }
 
 /**

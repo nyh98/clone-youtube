@@ -4,25 +4,30 @@ import LoadingPage from '../LoadingPage';
 import ErrorPage from '../ErrorPage';
 import { useQuery } from 'react-query';
 import getPopularVideos from '../../APIs/getPopularVideos';
-import getPopularProfile from '../../APIs/getPopularProfile';
+import { useOutletContext } from 'react-router-dom';
 
 interface Item {
   [key: string]: any;
 }
 
+interface OutletContext {
+  sit: string;
+  setSit: () => void;
+}
+
 export default function PopularVideos() {
-  const popular = useQuery('popularData', getPopularVideos, {
+  const { isLoading, error, data } = useQuery('popularData', getPopularVideos, {
     staleTime: 1000 * 60 * 5,
     refetchOnWindowFocus: false, // 개발중 포커스 업데이트 기능 off
   });
 
-  if (popular.isLoading) return <LoadingPage />;
+  if (isLoading) return <LoadingPage />;
 
-  if (popular.error) return <ErrorPage />;
+  if (error) return <ErrorPage />;
 
   function getProfileURL(videoChannelId: string) {
     let URL = '';
-    for (let profile of popular.data?.profiles) {
+    for (let profile of data?.profiles) {
       if (videoChannelId === profile.channelId) {
         URL = profile.profileURL;
         break;
@@ -31,7 +36,7 @@ export default function PopularVideos() {
     return URL;
   }
 
-  const { items } = popular.data?.videos;
+  const { items } = data?.videos;
 
   return (
     <div className="grid grid-cols-4 gap-3 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1">

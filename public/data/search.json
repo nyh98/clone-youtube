@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "TG-_jNNa4pteW1u33Rp16JbZh_Y",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vaLheDI4Tyy6wCsioyz_O6Kx-sY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "B_nwbjBhMoo"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T15:26:24Z",
+        "channelId": "UCDDOov_qN7HRnwAweQvMWDA",
+        "title": "하루 종일 듣기 좋은 노래 🎶일할때 듣기좋은 발라드 추천 광고없는 노래모음🎵💖김범수/태연/박명수/임창정 /박효신/성시경/ 백지영/ 더원",
+        "description": "들으면눈물나는발라드명곡추천 #하루종일듣기좋은노래 이곳은 마음을 울릴 슬픈 감정과 아름다운 멜로디가 어우러진, 눈물이 나는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B_nwbjBhMoo/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B_nwbjBhMoo/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B_nwbjBhMoo/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Lover Music Korean",
+        "liveBroadcastContent": "live",
+        "publishTime": "2024-01-16T15:26:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lromTVhllw93-RZIKmEnnUgU2sM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tGnzC5kuQMQ"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T14:19:24Z",
+        "channelId": "UCNlTl1bVTLf_EePbS5MyavA",
+        "title": "하루 종일 듣기 좋은 노래 일할때 듣기좋은 발라드 추천 광고없는 노래모음|김범수/ 임창정/ 박효신/성시경/ 백지영/ 더원/태연/박명수/에일리",
+        "description": "발라드명곡 #90년대발라드 #2000년대발라드 #광고없는발라드 Tracklist: --------------------------------------------------- ☑ \"Music For ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tGnzC5kuQMQ/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tGnzC5kuQMQ/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tGnzC5kuQMQ/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music for you",
+        "liveBroadcastContent": "live",
+        "publishTime": "2024-01-16T14:19:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ti5tKI8G7nHrj88Mi9OWhcAc7iQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5oKjOMffueg"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T09:14:44Z",
+        "channelId": "UCBj8yIscTV8__b9IzVCj1ug",
+        "title": "발라드 명곡 💖 BEST TOP 100 베스트 발라드 모음 양파 🎶 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타,원티드,숙희,린,민경훈,문명진,루다,더씨야",
+        "description": "발라드 명곡 BEST TOP 100 베스트 발라드 모음 양파 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5oKjOMffueg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5oKjOMffueg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5oKjOMffueg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "음악은 인생이다",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-16T09:14:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Bc8oHk6aI6mLx2qwtA4zYkcvSuY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jXyFmLvPdWg"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T09:12:53Z",
+        "channelId": "UCZDyWndsAi-ivQDM2ao_vAA",
+        "title": "발라드 명곡 💖 BEST TOP 100 베스트 발라드 모음 양파 🎶 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타,원티드,숙희,린,민경훈,문명진,루다,더씨야",
+        "description": "발라드 명곡 BEST TOP 100 베스트 발라드 모음 양파 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jXyFmLvPdWg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jXyFmLvPdWg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jXyFmLvPdWg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "발라드 명곡 KPOP",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-16T09:12:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aA5YkAcOEI718G59vATUK9xZf2o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UHYLjhRscIE"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T09:06:30Z",
+        "channelId": "UCNlTl1bVTLf_EePbS5MyavA",
+        "title": "일할때 듣기좋은 발라드 추천 광고없는 노래모음 - 하루 종일 들어도 좋은노래 BEST 100곡 - 김범수 /임창정 /박효신/성시경/ 백지영/ 더원/태연/박명수",
+        "description": "발라드명곡 #90년대발라드 #2000년대발라드 #광고없는발라드 Tracklist: --------------------------------------------------- ☑ \"Music For ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UHYLjhRscIE/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UHYLjhRscIE/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UHYLjhRscIE/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music for you",
+        "liveBroadcastContent": "live",
+        "publishTime": "2024-01-16T09:06:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TGDEbv6cdwgWmQp0uV1W0VqC3OY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FEbWVRVcQaE"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T06:54:03Z",
+        "channelId": "UCpSUWy6YTYRzd60a4TJb7dA",
+        "title": "발라드 명곡 💖 BEST TOP 100 베스트 발라드 모음 양파 🎶 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타,원티드,숙희,린,민경훈,문명진,루다,더씨야",
+        "description": "발라드 명곡 BEST TOP 100 베스트 발라드 모음 양파 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FEbWVRVcQaE/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FEbWVRVcQaE/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FEbWVRVcQaE/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "사랑 노래 - KPOP",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2024-01-16T06:54:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4YhMl7nT_AiAkuKf4CcfTMvJ40w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Oeq6AlzKS0o"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T06:35:08Z",
+        "channelId": "UCDDOov_qN7HRnwAweQvMWDA",
+        "title": "감성 발라드 명곡 🍂하루 종일 듣기 좋은 노래 🍁 송창의/ 성시경/ 백지영/ 더원/태연/박명수/에일리/김범수/ 임창정",
+        "description": "들으면눈물나는발라드명곡추천 #하루종일듣기좋은노래 이곳은 마음을 울릴 슬픈 감정과 아름다운 멜로디가 어우러진, 눈물이 나는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Oeq6AlzKS0o/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Oeq6AlzKS0o/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Oeq6AlzKS0o/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Lover Music Korean",
+        "liveBroadcastContent": "live",
+        "publishTime": "2024-01-16T06:35:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "U2QPGbbqUYBptdBLDhFF-gFJjAg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ynlpgzh73Tg"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T06:20:33Z",
+        "channelId": "UCjGONJ5ZFD9hOJzuBOUvMKQ",
+        "title": "7080 댄스 노래 모음",
+        "description": "Subscribe My Channel to update new videos! Thank you all ❤️❤️❤️ --------------------- ✪ 시청해주셔서 감사합니다. 영상이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ynlpgzh73Tg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ynlpgzh73Tg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ynlpgzh73Tg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "추억의가요모음",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-16T06:20:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fLDMX2Efys4jTk_6MJgA8ZgC3-0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vPx9kU1e0bA"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T06:04:53Z",
+        "channelId": "UCNlTl1bVTLf_EePbS5MyavA",
+        "title": "감성 발라드 명곡 - TOP 100 베스트 발라드 모음 양파 - 지친 마음을 위로하는 노래: 김범수/ 임창정/ 박효신/성시경/ 백지영/ 더원/태연/박명수/에일리",
+        "description": "발라드명곡 #90년대발라드 #2000년대발라드 #광고없는발라드 Tracklist: --------------------------------------------------- ☑ \"Music For ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vPx9kU1e0bA/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vPx9kU1e0bA/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vPx9kU1e0bA/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music for you",
+        "liveBroadcastContent": "live",
+        "publishTime": "2024-01-16T06:04:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FSQ8gHAszQj0_gj8uQJYrGWP2Ew",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5cz6q3bBOF0"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T04:45:34Z",
+        "channelId": "UC3PcB_nRCOZTZ7uTJHyspGg",
+        "title": "감성 발라드 명곡 👩\u200d🚀🧡 TOP 100 베스트 발라드 모음 양파 🎶 지친 마음을 위로하는 노래: 김필,양파, 이승기,왁스,김범수,소울스타,원티드,숙희,린,민경훈,문명진,루다",
+        "description": "감성 발라드 명곡 \u200d     TOP 100 베스트 발라드 모음 양파 지친 마음을 위로하는 노래: 김필,양파, 이승기,왁스,김범수,소울스타, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5cz6q3bBOF0/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5cz6q3bBOF0/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5cz6q3bBOF0/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "발라드 명곡",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2024-01-16T04:45:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gz_vTgZ-_qy73LoROQeHN5qr-ow",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ol9mWx8YTHQ"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T04:17:09Z",
+        "channelId": "UCC3Hd4d8gEzJONWwufpDhqA",
+        "title": "발라드 히트곡 모음 🎶 1990년대부터 2000년대 인기 발라드 모음집  #발라드명곡 #하루종일듣기좋은노래",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ol9mWx8YTHQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ol9mWx8YTHQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ol9mWx8YTHQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Korea 90s",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-16T04:17:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0uZwot72f-tbDhNZXNRBK6NcbLI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lU_ZHE3aByQ"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T04:14:25Z",
+        "channelId": "UCxmmZQVpr-qULRP3KP8AlgQ",
+        "title": "발라드 명곡 💖 BEST TOP 100 베스트 발라드 모음 양파 🎶 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타,원티드,숙희,린,민경훈,문명진,루다,더씨야",
+        "description": "발라드 명곡 BEST TOP 100 베스트 발라드 모음 양파 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lU_ZHE3aByQ/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lU_ZHE3aByQ/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lU_ZHE3aByQ/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "나의 뮤즈 ",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2024-01-16T04:14:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "x5iMjc3mSwNpIRsJwGZqRmCkuD8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4U1-7y4sDkc"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T03:22:14Z",
+        "channelId": "UCGDNOkMbw_J0ZMhQ-7x5sxg",
+        "title": "출근길에 듣기 좋은 발라드👏🌟50대이상이 들으면 기분좋아지는 7080노래모음,👏🌟그이유가내겐아픔이었네,칵테일 사랑,그리움만쌓이네,슬픈 인연,사랑하기에",
+        "description": "출근길에 듣기 좋은 발라드    50대이상이 들으면 기분좋아지는 7080노래모음,    그이유가내겐아픔이었네,칵테일 사랑,그리움만 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4U1-7y4sDkc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4U1-7y4sDkc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4U1-7y4sDkc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "VieSoundwaves",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-16T03:22:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "M-twT8hh7oo6QodI41BD5QR2HfA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tbizJw_0LE0"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T03:11:11Z",
+        "channelId": "UC3AASDUnTAeNHadojUqXu6Q",
+        "title": "7080 발라드 모음🍀 #shorts",
+        "description": "7080 발라드 모음   #shorts #shortvideo #subscribe 7080 추억의 노래, 7080 추억의 노래 광고없음, 7080노래모음 주옥같은노래, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tbizJw_0LE0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tbizJw_0LE0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tbizJw_0LE0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "휴식을 위한 음악 - Relaxing Music",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-16T03:11:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O0TuTBiuZ2rJYDAJ-FOHexEJriI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZAzm_1U0Lu0"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T03:00:18Z",
+        "channelId": "UCeprvjzu8c9gYC5oLfW9nvg",
+        "title": "이별 발라드 노래모음 | PLAYLIST | 임재현",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZAzm_1U0Lu0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZAzm_1U0Lu0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZAzm_1U0Lu0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "낭스월드 NangsWorld",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-16T03:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XISy_tJda8sgJSZP7YSQGHIiMk4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6j5n1pMjeEM"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T02:01:29Z",
+        "channelId": "UCZDyWndsAi-ivQDM2ao_vAA",
+        "title": "♪첫소절만 들어도 눈물샘 폭발하는 슬픈 노래모음 ♪들으면 눈물나는 발라드 명곡추천 💖양파, 이승기,왁스,김범수,소울스타,원티드,숙희,린,민경훈,문명진,루다,더씨야,윤건,디셈버",
+        "description": "첫소절만 들어도 눈물샘 폭발하는 슬픈 노래모음 ♪들으면 눈물나는 발라드 명곡추천 양파, 이승기,왁스,김범수,소울스타,원티드, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6j5n1pMjeEM/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6j5n1pMjeEM/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6j5n1pMjeEM/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "발라드 명곡 KPOP",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2024-01-16T02:01:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LB5iYc0xO_tdCQwl-wtOVl9Uuhw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "e3mAwx-krK8"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T01:12:02Z",
+        "channelId": "UCZDyWndsAi-ivQDM2ao_vAA",
+        "title": "하루 종일 듣기 좋은 노래 🎶일할때 듣기좋은 발라드 추천 광고없는 노래모음🍁 김범수/ 임창정/ 박효신/성시경/ 백지영/ 더원/태연/박명수/에일리/찬열/ 펀치/ 펀치/ 다비치/로꼬",
+        "description": "하루 종일 듣기 좋은 노래 일할때 듣기좋은 발라드 추천 광고없는 노래모음   김범수/ 임창정/ 박효신/성시경/ 백지영/ 더원/태연/ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e3mAwx-krK8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e3mAwx-krK8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e3mAwx-krK8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "발라드 명곡 KPOP",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-16T01:12:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "T3oeZMJLnwgkxzin3Hd0-lYZfYQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OVfRTfMdjNA"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-16T00:29:26Z",
+        "channelId": "UCNlTl1bVTLf_EePbS5MyavA",
+        "title": "일할때 듣기좋은 노래-발라드 히트곡 콜렉션-하루 종일 들어도 좋은노래-90~2000년대 발라드 명곡 노래모음-발라드 명곡 모음 광고없음-추천 발라드 모음",
+        "description": "발라드명곡 #90년대발라드 #2000년대발라드 #광고없는발라드 Tracklist: [00:00:00] - 사랑합니다 - 팀 [00:03:45] - 오현란 - 다시 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OVfRTfMdjNA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OVfRTfMdjNA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OVfRTfMdjNA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music for you",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-16T00:29:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CNsUsJvQorv7rhbmHLaPP0jkVKs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1R2dH0qSb2Y"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-15T23:00:01Z",
+        "channelId": "UCMvcU-QRzR2Bx52FSgTtGmw",
+        "title": "겨울에 듣기 좋은 노래 베스트 100 🍂 감성 발라드 명곡 🍁 TOP 100 베스트 발라드 모음 양파 🍂 백지영 - 뎁스/김필 - 다시 사랑한다면/임영웅 사랑은 언제나 탈출",
+        "description": "겨울에 듣기 좋은 노래 베스트 100 감성 발라드 명곡 TOP 100 베스트 발라드 모음 양파 백지영 - 뎁스/김필 - 다시 사랑한다면/ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1R2dH0qSb2Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1R2dH0qSb2Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1R2dH0qSb2Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Oxygen",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-15T23:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oVmP932TBABERUPOpfAhLmb34zI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "T1zLuQvZOSc"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-15T22:13:28Z",
+        "channelId": "UCDDOov_qN7HRnwAweQvMWDA",
+        "title": "가슴시린 발라드 10선 2024 - 첫소절만 들어도 눈물샘 폭발하는 슬픈 노래모음 - 들으면 눈물나는 발라드 명곡추천",
+        "description": "들으면눈물나는발라드명곡추천 #하루종일듣기좋은노래 이곳은 마음을 울릴 슬픈 감정과 아름다운 멜로디가 어우러진, 눈물이 나는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/T1zLuQvZOSc/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/T1zLuQvZOSc/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/T1zLuQvZOSc/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Lover Music Korean",
+        "liveBroadcastContent": "live",
+        "publishTime": "2024-01-15T22:13:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tam46XDv3fyb0SsE2rR1jpQ82c0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3jCrp-iXSwE"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-15T22:00:02Z",
+        "channelId": "UCXuUhfsgNF3-qOdgSAEc50g",
+        "title": "발라드 명곡 💖 best top 100 베스트 발라드 모음 양파 🎶 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타,원티드,숙희,린,민경훈,문명진,루다,더씨야",
+        "description": "발라드 명곡 best top 100 베스트 발라드 모음 양파 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타,원티드, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3jCrp-iXSwE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3jCrp-iXSwE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3jCrp-iXSwE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "발라드 걸작",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-15T22:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VDmRx8R4Mo2NGpZvrl_ICITm65A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_m6jG-wFwv4"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-15T22:00:17Z",
+        "channelId": "UCGDNOkMbw_J0ZMhQ-7x5sxg",
+        "title": "7080노래모음🌟🎶이른 아침에 듣는 발라드🌟🎶아직도 못다한 사랑,님그림자, 무정부르스,시인의마을,잃어버린우산,촛불 켜는 밤,촛불 켜는 밤",
+        "description": "7080노래모음    이른 아침에 듣는 발라드    아직도 못다한 사랑,님그림자, 무정부르스,시인의마을,잃어버린우산,촛불 켜는 밤, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_m6jG-wFwv4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_m6jG-wFwv4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_m6jG-wFwv4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "VieSoundwaves",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-15T22:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rPrtTWVYws16N85ok2PV39GJhuw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XKQ8cu-Xqcs"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-15T22:00:25Z",
+        "channelId": "UCpZGJQd6DRXREMPFLPwv9hg",
+        "title": "90년대 초, 중반에 핫했던 발라드 명  🎶 발라드 유명한 곡들 🎶 일할때 듣기좋은 발라드 추천 광고없는 노래모음.",
+        "description": "90년대 초, 중반에 핫했던 발라드 명 발라드 유명한 곡들 일할때 듣기좋은 발라드 추천 광고없는 노래모음. ▷ TRACKLIST: 01.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XKQ8cu-Xqcs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XKQ8cu-Xqcs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XKQ8cu-Xqcs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Romantic Love",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-15T22:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZyDx-rOZvvXFz1EYvB9HSEeIYaU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1OSPVl3XUFM"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-15T22:00:00Z",
+        "channelId": "UC-CstwTBz4amVNl0F397NnA",
+        "title": "발라드 명곡 💖 BEST TOP 100 베스트 발라드 모음 양파 🎶 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타,원티드,숙희,린,민경훈,문명진,루다,더씨야",
+        "description": "발라드 명곡 BEST TOP 100 베스트 발라드 모음 양파 지친 마음을 위로하는 노래 김필,양파, 이승기,왁스,김범수,소울스타, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1OSPVl3XUFM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1OSPVl3XUFM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1OSPVl3XUFM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ballad Kpop 2024",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-15T22:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fmQXYldz80VAIjowhKDJAX6va4A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bVqJj8AD-ec"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-15T22:00:09Z",
+        "channelId": "UCT8HNW_ZcYqXtj8HvdWYGxQ",
+        "title": "8090 발라드 노래모음🎙️ 주옥같은 80년대 90년대 발라드 명곡 입니다~ 추억의 발라드 가요와 함께오늘도 행복하세요",
+        "description": "응원해주셔서 감사합니다       채널을 구독하고 좋아하는 동영상을 더 많이 시청하세요 좋은 하루 되세요 ... ○ 여기에서 채널 구독: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bVqJj8AD-ec/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bVqJj8AD-ec/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bVqJj8AD-ec/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Old Music Korean",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-15T22:00:09Z"
+      }
+    }
+  ]
+}
