@@ -2,14 +2,27 @@ import React from 'react';
 import VideoBox from '../../components/main/VideoBox';
 import LoadingPage from '../LoadingPage';
 import ErrorPage from '../ErrorPage';
-import useGetPopularVideos from '../../hooks/useGetPopularVideos';
+import { useQuery } from 'react-query';
+import getPopularVideos from '../../APIs/getPopularVideos';
+import getPopularProfile from '../../APIs/getPopularProfile';
 
 interface Item {
   [key: string]: any;
 }
 
+const queryOptin = {
+  staleTime: 1000 * 60 * 5,
+  refetchOnWindowFocus: false, // 개발중 포커스 업데이트 기능 off
+};
 export default function PopularVideos() {
-  const { popular, profile } = useGetPopularVideos();
+  // const { popular, profile } = useGetPopularVideos();
+  const popular = useQuery('popularData', getPopularVideos, queryOptin);
+
+  const profile = useQuery(
+    'popularProfile',
+    () => getPopularProfile('test'),
+    queryOptin
+  );
 
   if (popular.isLoading || profile.isLoading) return <LoadingPage />;
 
