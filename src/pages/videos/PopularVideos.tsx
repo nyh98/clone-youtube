@@ -10,11 +10,6 @@ interface Item {
   [key: string]: any;
 }
 
-interface OutletContext {
-  sit: string;
-  setSit: () => void;
-}
-
 export default function PopularVideos() {
   const { isLoading, error, data } = useQuery('popularData', getPopularVideos, {
     staleTime: 1000 * 60 * 5,
