@@ -3,7 +3,7 @@ interface Item {
 }
 
 export default async function getPopularProfile(channelIds: string) {
-  console.log('인기 동영상 프로필 요청중...');
+  console.log('인기 동영상 채널 정보 요청중...');
 
   return fetch('data/channel.json')
     .then(res => res.json())

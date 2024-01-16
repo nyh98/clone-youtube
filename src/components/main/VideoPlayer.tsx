@@ -1,9 +1,11 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-export default function VideoPlayer() {
-  const { videoId } = useParams();
+interface Props {
+  videoId: string | undefined;
+}
 
+export default function VideoPlayer({ videoId }: Props) {
   return (
     <iframe
       id="player"
