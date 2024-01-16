@@ -10,34 +10,33 @@ interface Item {
   [key: string]: any;
 }
 
-const queryOptin = {
-  staleTime: 1000 * 60 * 5,
-  refetchOnWindowFocus: false, // 개발중 포커스 업데이트 기능 off
-};
 export default function PopularVideos() {
-  // const { popular, profile } = useGetPopularVideos();
-  const popular = useQuery('popularData', getPopularVideos, queryOptin);
+  const popular = useQuery('popularData', getPopularVideos, {
+    staleTime: 1000 * 60 * 5,
+    refetchOnWindowFocus: false, // 개발중 포커스 업데이트 기능 off
+  });
 
-  const profile = useQuery(
-    'popularProfile',
-    () => getPopularProfile('test'),
-    queryOptin
-  );
+  if (popular.isLoading) return <LoadingPage />;
 
-  if (popular.isLoading || profile.isLoading) return <LoadingPage />;
+  if (popular.error) return <ErrorPage />;
 
-  if (popular.error || profile.error) return <ErrorPage />;
+  function getProfileURL(videoChannelId: string) {
+    let URL = '';
+    for (let profile of popular.data?.profiles) {
+      if (videoChannelId === profile.channelId) {
+        URL = profile.profileURL;
+        break;
+      }
+    }
+    return URL;
+  }
 
-  const profileURLs = profile.data.items.map(
-    (item: Item) => item.snippet.thumbnails.high.url
-  );
-
-  const { items } = popular.data;
+  const { items } = popular.data?.videos;
 
   return (
     <div className="grid grid-cols-4 gap-3 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1">
       {items &&
-        items.map((item: Item, index: string) => (
+        items.map((item: Item) => (
           <VideoBox
             key={item.id}
             title={item.snippet.title}
@@ -46,7 +45,7 @@ export default function PopularVideos() {
             publishedAt={item.snippet.publishedAt}
             channelTitle={item.snippet.channelTitle}
             viewCount={item.statistics.viewCount}
-            profileURL={profileURLs[index]}
+            profileURL={getProfileURL(item.snippet.channelId)}
           />
         ))}
     </div>
