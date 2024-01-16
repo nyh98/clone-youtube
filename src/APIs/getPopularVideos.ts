@@ -18,8 +18,8 @@ export default async function getPopularVideos() {
         .map((item: Item) => '&id=' + item.snippet.channelId)
         .join('');
 
-      const profiles = await getChannelDetail('channelIds'); //해당 채널 정보 get
+      const channelDetails = await getChannelDetail(channelIds); //해당 채널 정보 get
 
-      return { videos, profiles };
+      return { videos, channelDetails };
     });
 }

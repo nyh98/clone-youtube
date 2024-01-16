@@ -22,15 +22,15 @@ export default function PopularVideos() {
 
   function getProfileURL(videoChannelId: string) {
     let URL = '';
-    for (let profile of data?.profiles) {
-      if (videoChannelId === profile.channelId) {
-        URL = profile.profileURL;
+    for (let channel of data?.channelDetails) {
+      if (videoChannelId === channel.channelId) {
+        URL = channel.profileURL;
         break;
       }
     }
     return URL;
   }
-
+  console.log(data?.channelDetails);
   const { items } = data?.videos;
 
   return (

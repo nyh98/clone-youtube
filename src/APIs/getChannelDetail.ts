@@ -3,7 +3,7 @@ interface Item {
 }
 
 export default async function getChannelDetail(channelIds: string) {
-  console.log('인기 동영상 채널 정보 요청중...');
+  console.log('채널 정보 요청중...');
 
   return fetch('data/channel.json')
     .then(res => res.json())
@@ -12,6 +12,7 @@ export default async function getChannelDetail(channelIds: string) {
         return {
           channelId: item.id,
           profileURL: item.snippet.thumbnails.medium.url,
+          subscriberCount: item.statistics.subscriberCount,
         };
       })
     );
@@ -20,6 +21,7 @@ export default async function getChannelDetail(channelIds: string) {
 /**
  * 채널 정보 요청
  * @ids &id={id}
- *  `https://youtube.googleapis.com/youtube/v3/channels?part=snippet${channelIds}&key=${process.env.REACT_APP_API_KEY} `
+ * `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${channelIds}&key=${process.env.REACT_APP_API_KEY}`
+ * 
   )
  */
