@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useQuery } from 'react-query';
 import searchVideo from '../../../APIs/searchVideo';
 import LoadingPage from '../../../pages/LoadingPage';
@@ -10,18 +10,23 @@ interface Item {
 }
 
 interface VideoTitle {
-  videoTitle: string | undefined;
+  channelTitle: string | undefined;
 }
 
-export default function SideVideos({ videoTitle }: VideoTitle) {
-  const { isLoading, error, data } = useQuery(
+export default function SideVideos({ channelTitle }: VideoTitle) {
+  const { isLoading, refetch, error, data } = useQuery(
     'sideVideos',
-    () => searchVideo(videoTitle),
+    () => searchVideo(channelTitle),
     {
       refetchOnWindowFocus: false,
     }
   );
 
+  useEffect(() => {
+    refetch();
+  }, [channelTitle]);
+
+  console.log(channelTitle); //videoTitle 이 재할당 되지않음
   if (isLoading) return <LoadingPage />;
 
   if (error) return <ErrorPage />;
