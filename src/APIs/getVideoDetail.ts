@@ -1,6 +1,7 @@
 import getChannelDetail from './getChannelDetail';
 
 export default async function getVideoDetail(videoId: string | undefined) {
+  console.log('비디오 정보 요쳥중...');
   return fetch('/data/videoDetail.json')
     .then(res => res.json())
     .then(async video => {
