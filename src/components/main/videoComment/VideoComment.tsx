@@ -15,12 +15,8 @@ interface Item {
 }
 
 export default function VideoComment({ videoId, commentCount }: Comment) {
-  const { isLoading, error, data } = useQuery(
-    'videoComments',
-    () => getVideoComment(videoId),
-    {
-      refetchOnWindowFocus: false,
-    }
+  const { isLoading, error, data } = useQuery('videoComments', () =>
+    getVideoComment(videoId)
   );
 
   if (isLoading) return <LoadingPage />;

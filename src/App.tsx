@@ -7,7 +7,15 @@ import VideoDetail from './pages/videos/VideoDetail';
 import SearchVideos from './pages/videos/SearchVideos';
 
 function App() {
-  const queryClient = new QueryClient();
+  const queryClient = new QueryClient({
+    defaultOptions: {
+      queries: {
+        refetchOnWindowFocus: false,
+        refetchOnMount: true,
+        refetchOnReconnect: true,
+      },
+    },
+  });
   const router = createBrowserRouter([
     {
       path: '/',

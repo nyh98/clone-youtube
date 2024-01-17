@@ -12,12 +12,8 @@ interface Item {
 
 export default function SearchVideos() {
   const { keyWord } = useParams();
-  const { isLoading, error, data } = useQuery(
-    'searchVideos',
-    () => searchVideo(keyWord),
-    {
-      refetchOnWindowFocus: false,
-    }
+  const { isLoading, error, data } = useQuery('searchVideos', () =>
+    searchVideo(keyWord)
   );
 
   if (isLoading) return <LoadingPage />;

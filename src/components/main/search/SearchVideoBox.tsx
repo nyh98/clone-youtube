@@ -32,7 +32,7 @@ export default function SearchVideoBox({
         />
       </Link>
       <div className="ml-2">
-        <div className="line-clamp-2 text-2xl font-semibold">{title}</div>
+        <div className="line-clamp-2 text-2xl font-medium">{title}</div>
         <div className="text-xs line-clamp-1 flex mt-4">
           <PiTelevision className="mt-[2px] mr-1" />
           {channelTitle}

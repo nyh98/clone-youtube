@@ -12,12 +12,8 @@ import SideVideos from '../../components/main/sideVideos/SideVideos';
 
 export default function VideoDetail() {
   const { videoId } = useParams();
-  const { isLoading, error, data } = useQuery(
-    'videoDetail',
-    () => getVideoDetail(videoId),
-    {
-      refetchOnWindowFocus: false,
-    }
+  const { isLoading, error, data } = useQuery('videoDetail', () =>
+    getVideoDetail(videoId)
   );
 
   if (isLoading) return <LoadingPage />;

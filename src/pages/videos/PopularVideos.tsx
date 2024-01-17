@@ -12,7 +12,6 @@ interface Item {
 export default function PopularVideos() {
   const { isLoading, error, data } = useQuery('popularData', getPopularVideos, {
     staleTime: 1000 * 60 * 5,
-    refetchOnWindowFocus: false, // 개발중 포커스 업데이트 기능 off
   });
 
   if (isLoading) return <LoadingPage />;
