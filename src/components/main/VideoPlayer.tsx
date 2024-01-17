@@ -16,4 +16,3 @@ export default function VideoPlayer({ videoId }: Props) {
     </div>
   );
 }
-// h-[480px] w-[850px]

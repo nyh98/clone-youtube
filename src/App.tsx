@@ -16,12 +16,12 @@ function App() {
         {
           path: '/',
           element: <PopularVideos />,
-          errorElement: <ErrorPage />,
         },
         {
           path: '/video/:videoId',
           element: <VideoDetail />,
         },
+        { path: '/search/:keyWord', element: <div>검색 페이지</div> },
       ],
     },
   ]);
