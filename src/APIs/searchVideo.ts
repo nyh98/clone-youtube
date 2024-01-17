@@ -1,4 +1,4 @@
-export default async function searchVideo(keyWord: string) {
+export default async function searchVideo(keyWord: string | undefined) {
   console.log('비디오 검색 중...');
   return fetch('/data/searchVideo.json').then(res => res.json());
 }

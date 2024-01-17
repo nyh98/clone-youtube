@@ -9,10 +9,14 @@ interface Item {
   [key: string]: any;
 }
 
-export default function SideVideos() {
+interface VideoTitle {
+  videoTitle: string | undefined;
+}
+
+export default function SideVideos({ videoTitle }: VideoTitle) {
   const { isLoading, error, data } = useQuery(
     'sideVideos',
-    () => searchVideo('videoTitle'),
+    () => searchVideo(videoTitle),
     {
       refetchOnWindowFocus: false,
     }

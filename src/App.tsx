@@ -4,6 +4,7 @@ import PopularVideos from './pages/videos/PopularVideos';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import ErrorPage from './pages/ErrorPage';
 import VideoDetail from './pages/videos/VideoDetail';
+import SearchVideos from './pages/videos/SearchVideos';
 
 function App() {
   const queryClient = new QueryClient();
@@ -21,7 +22,10 @@ function App() {
           path: '/video/:videoId',
           element: <VideoDetail />,
         },
-        { path: '/search/:keyWord', element: <div>검색 페이지</div> },
+        {
+          path: '/search/:keyWord',
+          element: <SearchVideos />,
+        },
       ],
     },
   ]);

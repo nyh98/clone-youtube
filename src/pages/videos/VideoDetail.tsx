@@ -43,7 +43,7 @@ export default function VideoDetail() {
             commentCount={item.statistics.commentCount}
           />
         </div>
-        <SideVideos />
+        <SideVideos videoTitle={item.snippet.title} />
       </div>
     </div>
   );
