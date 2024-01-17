@@ -1,5 +1,5 @@
 import React from 'react';
-import getRelativeTime from '../utils/getRelativeTime';
+import getRelativeTime from '../../utils/getRelativeTime';
 
 interface Comment {
   authorProfileImageUrl: string;

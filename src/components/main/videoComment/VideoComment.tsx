@@ -1,8 +1,8 @@
 import React from 'react';
 import { useQuery } from 'react-query';
-import getVideoComment from '../../APIs/getVideoComment';
-import LoadingPage from '../../pages/LoadingPage';
-import ErrorPage from '../../pages/ErrorPage';
+import getVideoComment from '../../../APIs/getVideoComment';
+import LoadingPage from '../../../pages/LoadingPage';
+import ErrorPage from '../../../pages/ErrorPage';
 import CommentBox from './CommentBox';
 
 interface Comment {

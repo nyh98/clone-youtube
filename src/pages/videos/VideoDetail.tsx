@@ -7,7 +7,7 @@ import getVideoDetail from '../../APIs/getVideoDetail';
 import LoadingPage from '../LoadingPage';
 import ErrorPage from '../ErrorPage';
 import VideoSnippet from '../../components/main/VideoSnippet';
-import VideoComment from '../../components/main/VideoComment';
+import VideoComment from '../../components/main/videoComment/VideoComment';
 
 export default function VideoDetail() {
   const { videoId } = useParams();
