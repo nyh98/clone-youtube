@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
 import VideoPlayer from '../../components/main/VideoPlayer';
 import { useParams } from 'react-router-dom';
 import { useQuery } from 'react-query';
@@ -12,9 +11,13 @@ import SideVideos from '../../components/main/sideVideos/SideVideos';
 
 export default function VideoDetail() {
   const { videoId } = useParams();
-  const { isLoading, error, data } = useQuery('videoDetail', () =>
+  const { isLoading, refetch, error, data } = useQuery('videoDetail', () =>
     getVideoDetail(videoId)
   );
+
+  useEffect(() => {
+    refetch();
+  }, [videoId]);
 
   if (isLoading) return <LoadingPage />;
 

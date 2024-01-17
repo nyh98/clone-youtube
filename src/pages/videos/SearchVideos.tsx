@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useQuery } from 'react-query';
 import searchVideo from '../../APIs/searchVideo';
 import LoadingPage from '../LoadingPage';
@@ -12,9 +12,13 @@ interface Item {
 
 export default function SearchVideos() {
   const { keyWord } = useParams();
-  const { isLoading, error, data } = useQuery('searchVideos', () =>
+  const { isLoading, refetch, error, data } = useQuery('searchVideos', () =>
     searchVideo(keyWord)
   );
+
+  useEffect(() => {
+    refetch();
+  }, [keyWord]);
 
   if (isLoading) return <LoadingPage />;
 
