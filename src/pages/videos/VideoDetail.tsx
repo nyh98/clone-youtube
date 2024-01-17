@@ -16,7 +16,6 @@ export default function VideoDetail() {
     'videoDetail',
     () => getVideoDetail(videoId),
     {
-      staleTime: 1000 * 60 * 5,
       refetchOnWindowFocus: false,
     }
   );

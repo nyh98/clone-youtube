@@ -29,6 +29,7 @@ export default function SideVideos() {
       {items.map((item: Item) => {
         return (
           <SideVideoBox
+            key={item.id.videoId}
             videoId={item.id.videoId}
             thumbnailURL={item.snippet.thumbnails.high.url}
             title={item.snippet.title}

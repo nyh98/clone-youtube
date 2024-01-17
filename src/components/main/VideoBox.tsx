@@ -21,7 +21,7 @@ export default function VideoBox({
         <img
           src={thumbnail}
           alt={'profile'}
-          className="h-2/3 w-full rounded-2xl"
+          className="aspect-video w-full rounded-2xl "
         ></img>
       </Link>
       <VideoSnippet

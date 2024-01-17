@@ -22,7 +22,7 @@ export default function SideVideoBox({
         <img
           src={thumbnailURL}
           alt="thumbnails"
-          className="w-[170px] h-[90px] rounded-2xl "
+          className="w-[170px] aspect-video rounded-2xl object-cover"
         />
       </Link>
       <div className="ml-2">
