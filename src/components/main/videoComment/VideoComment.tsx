@@ -19,7 +19,6 @@ export default function VideoComment({ videoId, commentCount }: Comment) {
     'videoComments',
     () => getVideoComment(videoId),
     {
-      staleTime: 1000 * 60 * 5,
       refetchOnWindowFocus: false,
     }
   );
@@ -31,7 +30,7 @@ export default function VideoComment({ videoId, commentCount }: Comment) {
   const { items } = data;
 
   return (
-    <div>
+    <div className="w-4/5">
       <div className="font-black text-xl mt-4">
         총 댓글 {Number(commentCount).toLocaleString('ko-KR')}개
       </div>

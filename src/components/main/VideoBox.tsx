@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { PiTelevision } from 'react-icons/pi';
 import VideoSnippet from './VideoSnippet';
 
 interface videos {

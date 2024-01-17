@@ -1,0 +1,516 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "FL-NVOddqkUgUWaLiheecu-XNfY",
+  "nextPageToken": "CA8QAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 15
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EtHhGqAtGZGxC7SWsvu3XFGQlKU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iFgpQWi4DAk"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-12T09:45:08Z",
+        "channelId": "UCD2YO_A_PVMgMDN9jpRrpVA",
+        "title": "랄로, 당신도 나락에 갈 수 있다",
+        "description": "랄로 풀코스 youtube.com/@user-RALONG 트위치 생방송 https://www.twitch.tv/aba4647 각종 비지니스 aba060847@gmail.com.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iFgpQWi4DAk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iFgpQWi4DAk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iFgpQWi4DAk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "랄로",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-12T09:45:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "leN5RkA_aq18V-zBlTuekyGSUt8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nhYGa_p_4Sk"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-16T01:00:17Z",
+        "channelId": "UCaKW9wI-nHFQ3wnakMlQYeQ",
+        "title": "랄로 (수다모음) - 채팅창은 안방처럼 써라",
+        "description": "shorts #게임방송 #랄로 #채팅창.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nhYGa_p_4Sk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nhYGa_p_4Sk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nhYGa_p_4Sk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "스트리머 쇼츠",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-16T01:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CutxxDSnf0S4iFc0SeyW0yucj4s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OAyyTrRP_zM"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-25T18:59:43Z",
+        "channelId": "UC2H2a6Tek3b4qAbWW2Peq9g",
+        "title": "우리가 사랑했던 랄로",
+        "description": "랄로 #랄뚜기 #랄로하이라이트 #명언 제가 그냥 혼자 웃으려고 만든 랄로 영상입니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OAyyTrRP_zM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OAyyTrRP_zM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OAyyTrRP_zM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "김태",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-25T18:59:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "I2ysqIepe18DCAhzv28bE_Nybkw",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCD2YO_A_PVMgMDN9jpRrpVA"
+      },
+      "snippet": {
+        "publishedAt": "2013-11-14T05:32:35Z",
+        "channelId": "UCD2YO_A_PVMgMDN9jpRrpVA",
+        "title": "랄로",
+        "description": "랄튜브는 방송 중 액기스만 쫙 뽑아 올립니다. 랄로 풀코스 https://www.youtube.com/@user-RALONG 생방송 바로가기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQNWfU6iMvJ_jvC-Th4YlLZP2NTzgUe8Eubv_ZtWA=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQNWfU6iMvJ_jvC-Th4YlLZP2NTzgUe8Eubv_ZtWA=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQNWfU6iMvJ_jvC-Th4YlLZP2NTzgUe8Eubv_ZtWA=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "랄로",
+        "liveBroadcastContent": "none",
+        "publishTime": "2013-11-14T05:32:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4ott1wkLs5Dt-v9OkvvYxC8afQA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BTsEYKLbNEg"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-09T13:08:31Z",
+        "channelId": "UCuLzjpB3ZbWyCKpqA1UCD3Q",
+        "title": "[랄로 BGM 플레이리스트] 코인차트 관망하기 좋은, 잔잔한 시네마틱 음악 컬렉션 10선 #1 (Ralo&#39;s BGM Playlist)",
+        "description": "[문의] spider1012@naver.com ※ 플레이리스트 2탄 보러가기 https://youtu.be/J3tAJcHYcvE 0:00 Muted - Zoom Out 4:59 Unicorn ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BTsEYKLbNEg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BTsEYKLbNEg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BTsEYKLbNEg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "랄로 한접시",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-09T13:08:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qbzoqLirtRPg4VbaFrJMvHRiBOY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zp9Tn1YH6gs"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-01T05:12:35Z",
+        "channelId": "UCD2YO_A_PVMgMDN9jpRrpVA",
+        "title": "[역] 랄로 데드무비",
+        "description": "다소 역겹습니다 심신이 약하신분은 뒤로가기 부탁드립니다,, 트위치 www.twitch.tv/aba4647.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zp9Tn1YH6gs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zp9Tn1YH6gs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zp9Tn1YH6gs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "랄로",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-01T05:12:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Wt3S_-qjK2kQMC3JF26FBF_td8U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "btfuIz3qrSE"
+      },
+      "snippet": {
+        "publishedAt": "2019-05-04T14:56:28Z",
+        "channelId": "UCD2YO_A_PVMgMDN9jpRrpVA",
+        "title": "랄로 동기부여 영상",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/btfuIz3qrSE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/btfuIz3qrSE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/btfuIz3qrSE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "랄로",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-05-04T14:56:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qveHz8yYgoIKGl3574RbDRNB4vg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SQiSInZRSwU"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-23T07:00:14Z",
+        "channelId": "UCaNdM2jcA_qXeMmi-a3CObw",
+        "title": "랄로 스트리머 반응 자투리 모음 (찐막)",
+        "description": "00:01 인트로 00:51 강인경님 02:41 김갑주님 03:44 강지님 05:12 금휘님 05:45 나는 루다님 06:09 릴카님 10:06 박삐삐님 16:33 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SQiSInZRSwU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SQiSInZRSwU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SQiSInZRSwU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "김남빈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-23T07:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uCPBjacS4SKsTmZUpRf3U6xPe_A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PBR6mvECJYE"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-31T15:10:40Z",
+        "channelId": "UCD2YO_A_PVMgMDN9jpRrpVA",
+        "title": "2023년 랄로 연말결산 입니다.",
+        "description": "새해도 다들 파이팅입니다 0:00 인트로 0:40 4교대 공장 1:57 운동 1개월차 9:25 강원랜드 필승법 11:33 개와 주인 18:53 운동 설명회 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PBR6mvECJYE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PBR6mvECJYE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PBR6mvECJYE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "랄로",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-31T15:10:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fHvzjuLFF8M5Elpo2Un_S9WVRX0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Pa-Ziwg5ZVg"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-11T13:42:19Z",
+        "channelId": "UCD2YO_A_PVMgMDN9jpRrpVA",
+        "title": "법사 접어요",
+        "description": "랄로 풀코스 youtube.com/@user-RALONG 트위치 생방송 https://www.twitch.tv/aba4647 각종 비지니스 aba060847@gmail.com.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Pa-Ziwg5ZVg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Pa-Ziwg5ZVg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Pa-Ziwg5ZVg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "랄로",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-11T13:42:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VNVVAH8Pgai0gaHa_TkQHiUeiKM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "assGmVzmudk"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-18T15:58:37Z",
+        "channelId": "UC2DoHa1txQFtHx3ksFhxdjQ",
+        "title": "(랄로 클립)애매한 액수  #Shorts",
+        "description": "랄로 #Shorts 출처:https://www.twitch.tv/videos/1090480579.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/assGmVzmudk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/assGmVzmudk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/assGmVzmudk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "트위치 롤 스트리머클립",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-18T15:58:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wBi3WjCTtvB96VgDIQ54rBvKj1c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6uT94CDCWJY"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-22T12:47:46Z",
+        "channelId": "UCD2YO_A_PVMgMDN9jpRrpVA",
+        "title": "동탄소년단 뵈",
+        "description": "랄로 풀코스 youtube.com/@user-RALONG 트위치 생방송 www.twitch.tv/aba4647 각종 비지니스 aba060847@gmail.com 0:00 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6uT94CDCWJY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6uT94CDCWJY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6uT94CDCWJY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "랄로",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-22T12:47:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MnEUJBBo14XJRm1kq82v246BV1A",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLvUqJcjD06vsWjPmmZTXqA00jIzuS5MGl"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-27T18:31:35Z",
+        "channelId": "UCHM8nFq5fuiSZzBXKDxGe9w",
+        "title": "랄로ai 모음",
+        "description": "오빠혜지연초마려.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MViNcBQt0C4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MViNcBQt0C4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MViNcBQt0C4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "곰민",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-27T18:31:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JUUL0c9smnLHWYubVgQSHre0clQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "G7hfk7stbNY"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-16T12:33:47Z",
+        "channelId": "UCBkutMMYpFo5RG0aLyITGCA",
+        "title": "랄로를 벗긴 남자 #shorts #랄로",
+        "description": "내가올리고싶은것만올림 #shorts #랄로 #칸나 #강지 #도파 #파카 #괴물쥐 #유니 #스텔라이브 #도랄팤쥐 #러스트 #아이리칸나 #아야 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G7hfk7stbNY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G7hfk7stbNY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G7hfk7stbNY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "올리고싶은것들",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-16T12:33:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nynkR2UY5HpjKiPs9ewh4J1S5S8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BBERPnIaudw"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-21T04:00:10Z",
+        "channelId": "UClDw90IzafX9g7u7MdMI4Ow",
+        "title": "김해가 낳은 제육 청년 &#39;랄로&#39;에 대한 17가지 재미있는 사실",
+        "description": "이번 영상은 롤튜버이자 트위치에서 코인 투자와 게임 방송을 하고있는 \"랄로\" 님입니다. 랄로님은 원래 CJ 엔투스 프로게이머 연습생 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BBERPnIaudw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BBERPnIaudw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BBERPnIaudw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "공시생J군의 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-21T04:00:10Z"
+      }
+    }
+  ]
+}

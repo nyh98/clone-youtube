@@ -1,5 +1,6 @@
 /* https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=25&regionCode=KR&key=[YOUR_API_KEY] 
    한국 인기동영상 25개 요청 
+   
 */
 
 import getChannelDetail from './getChannelDetail';
@@ -23,3 +24,5 @@ export default async function getPopularVideos() {
       return { videos, channelDetails };
     });
 }
+
+//'data/popular.json'
