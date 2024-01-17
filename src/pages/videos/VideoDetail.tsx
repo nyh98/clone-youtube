@@ -7,6 +7,8 @@ import getVideoDetail from '../../APIs/getVideoDetail';
 import LoadingPage from '../LoadingPage';
 import ErrorPage from '../ErrorPage';
 
+import VideoSnippet from '../../components/main/VideoSnippet';
+
 export default function VideoDetail() {
   const { videoId } = useParams();
   const { isLoading, error, data } = useQuery(
@@ -22,12 +24,24 @@ export default function VideoDetail() {
 
   if (error) return <ErrorPage />;
 
+  const item = data?.video.items[0];
+  console.log(data);
   return (
-    <div className="flex justify-center w-full h-full ">
-      <div className="w-[60%] flex justify-center ">
-        <VideoPlayer videoId={videoId} />
+    <div className="flex justify-center w-full h-full">
+      <div className="w-full h-full flex justify-center ">
+        <div className="w-[70%]">
+          <VideoPlayer videoId={videoId} />
+          <VideoSnippet
+            title={item.snippet.title}
+            channelTitle={item.snippet.channelTitle}
+            viewCount={item.statistics.viewCount}
+            publishedAt={item.snippet.publishedAt}
+            profileURL={data?.channelDetail[0].profileURL}
+          />
+          <div>댓글 수 {item.statistics.commentCount}</div>
+        </div>
       </div>
-      <div className="w-[20%] max-md:hidden">관련 영상들</div>
+      <div className=" max-md:hidden">관련 영상들</div>
     </div>
   );
 }

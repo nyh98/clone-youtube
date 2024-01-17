@@ -5,7 +5,7 @@ interface Item {
 export default async function getChannelDetail(channelIds: string) {
   console.log('채널 정보 요청중...');
 
-  return fetch('data/channel.json')
+  return fetch('/data/onlyChannel.json')
     .then(res => res.json())
     .then(data =>
       data.items.map((item: Item) => {

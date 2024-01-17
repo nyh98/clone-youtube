@@ -1,5 +1,14 @@
+import getChannelDetail from './getChannelDetail';
+
 export default async function getVideoDetail(videoId: string | undefined) {
-  return fetch('/data/videoDetail.json').then(res => res.json());
+  return fetch('/data/videoDetail.json')
+    .then(res => res.json())
+    .then(async video => {
+      const channelId = video.items[0].snippet.channelId;
+      const channelDetail = await getChannelDetail(channelId);
+
+      return { video, channelDetail };
+    });
 }
 
 /**

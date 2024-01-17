@@ -1,10 +1,9 @@
 import React from 'react';
-import VideoBox from '../../components/main/VideoBox';
 import LoadingPage from '../LoadingPage';
 import ErrorPage from '../ErrorPage';
 import { useQuery } from 'react-query';
 import getPopularVideos from '../../APIs/getPopularVideos';
-import { useOutletContext } from 'react-router-dom';
+import VideoBox from '../../components/main/VideoBox';
 
 interface Item {
   [key: string]: any;
@@ -30,7 +29,7 @@ export default function PopularVideos() {
     }
     return URL;
   }
-  console.log(data?.channelDetails);
+
   const { items } = data?.videos;
 
   return (
