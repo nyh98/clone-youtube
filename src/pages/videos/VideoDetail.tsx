@@ -8,7 +8,7 @@ import LoadingPage from '../LoadingPage';
 import ErrorPage from '../ErrorPage';
 import VideoSnippet from '../../components/main/VideoSnippet';
 import VideoComment from '../../components/main/videoComment/VideoComment';
-import SideVideos from '../../components/main/SideVideos';
+import SideVideos from '../../components/main/sideVideos/SideVideos';
 
 export default function VideoDetail() {
   const { videoId } = useParams();
