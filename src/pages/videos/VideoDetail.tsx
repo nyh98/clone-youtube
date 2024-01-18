@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+import React, { useEffect } from 'react';
 import VideoPlayer from '../../components/main/VideoPlayer';
 import { useOutletContext, useParams } from 'react-router-dom';
 import { useQuery } from 'react-query';
@@ -27,26 +27,37 @@ export default function VideoDetail() {
     refetch();
   }, [videoId]);
 
+  //시청 기록에 추가
+  useEffect(() => {
+    if (data) {
+      setWatchedData((watchedData: Watched) => {
+        const item = data?.video.items[0];
+        //중복 확인
+        if (watchedData.findIndex(video => video.videoid === videoId) === -1) {
+          return [
+            ...watchedData,
+            {
+              title: item.snippet.title,
+              channelTitle: item.snippet.channelTitle,
+              viewCount: item.statistics.viewCount,
+              publishedAt: item.snippet.publishedAt,
+              profileURL: data?.channelDetail[0].profileURL,
+              thumbnail: item.snippet.thumbnails.medium.url,
+              videoid: videoId,
+            },
+          ];
+        }
+        //중복시 기존 데이터만 리턴
+        return watchedData;
+      });
+    }
+  }, [data]);
+
   if (isLoading) return <LoadingPage />;
 
   if (error) return <ErrorPage />;
 
   const item = data?.video.items[0];
-
-  // setWatchedData((watchedData: Watched) => {
-  //   return [
-  //     ...watchedData,
-  //     {
-  //       title: item.snippet.title,
-  //       channelTitle: item.snippet.channelTitle,
-  //       viewCount: item.statistics.viewCount,
-  //       publishedAt: item.snippet.publishedAt,
-  //       profileURL: data?.channelDetail[0].profileURL,
-  //       thumbnail: item.snippet.thumbnails.medium.url,
-  //       videoid: videoId,
-  //     },
-  //   ];
-  // });
 
   return (
     <div className="flex w-full h-full">

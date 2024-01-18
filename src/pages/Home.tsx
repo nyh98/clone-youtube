@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 import HamburgerMenuContext from '../context/HamburgerMenuContext';
 
 export default function Home() {
-  const [watchedData, setWatchedData] = useState([{}]);
+  const [watchedData, setWatchedData] = useState([]);
   return (
     <div className="h-full w-full absolute dark:bg-zinc-900">
       <HamburgerMenuContext>
