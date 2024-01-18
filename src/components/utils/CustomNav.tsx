@@ -4,7 +4,6 @@ import { hamburgerContext } from '../../context/HamburgerMenuContext';
 type NavProps = {
   children: React.ReactNode;
   title: React.ReactNode;
-  eventFunction?: Function;
 };
 
 export default function CustomNav({ children, title }: NavProps) {
