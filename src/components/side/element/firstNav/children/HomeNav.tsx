@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 export default function HomeNav() {
   return (
-    <CustomNav title={'홈'}>
-      <Link to="/">
+    <Link to="/">
+      <CustomNav title={'홈'}>
         <IoMdHome className="w-7 h-7" />
-      </Link>
-    </CustomNav>
+      </CustomNav>{' '}
+    </Link>
   );
 }
