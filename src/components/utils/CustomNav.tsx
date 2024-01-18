@@ -11,7 +11,7 @@ export default function CustomNav({ children, title }: NavProps) {
   return (
     <div
       style={hamburgerMenuChecked ? { justifyContent: 'start' } : {}}
-      className="flex h-16 group relative justify-center items-center dark:text-white"
+      className="flex h-16 group hover:cursor-pointer relative justify-center items-center dark:text-white"
     >
       <button
         style={
@@ -19,9 +19,7 @@ export default function CustomNav({ children, title }: NavProps) {
             ? { flexDirection: 'row', paddingLeft: '10px' }
             : {}
         }
-        className={
-          'flex flex-col justify-center items-center ml-1.5 group-hover:cursor-pointer z-10'
-        }
+        className={'flex flex-col justify-center items-center ml-1.5  z-10'}
       >
         {children}
         <p

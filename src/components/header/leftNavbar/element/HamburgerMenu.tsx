@@ -7,11 +7,12 @@ export default function HamburgerMenu() {
     useContext(hamburgerContext);
 
   return (
-    <div className="relative group w-10 h-auto justify-center items-center flex">
-      <RxHamburgerMenu
+    <div className="group w-10 h-auto justify-center items-center flex">
+      <RxHamburgerMenu className="w-6 h-6 absolute hover:cursor-pointer z-10" />
+      <div
+        className="absolute w-full h-full"
         onClick={() => setHamburgerCheck(!hamburgerMenuChecked)}
-        className="w-6 h-6 absolute hover:cursor-pointer z-10"
-      />
+      ></div>
     </div>
   );
 }
