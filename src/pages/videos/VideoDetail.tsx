@@ -18,8 +18,12 @@ type Watched = [{ [key: string]: string }];
 
 export default function VideoDetail() {
   const { videoId } = useParams();
-  const { isLoading, refetch, error, data } = useQuery('videoDetail', () =>
-    getVideoDetail(videoId)
+  const { isLoading, refetch, error, data } = useQuery(
+    'videoDetail',
+    () => getVideoDetail(videoId),
+    {
+      staleTime: 1000 * 60 * 5,
+    }
   );
   const { setWatchedData }: WatchedData = useOutletContext();
 

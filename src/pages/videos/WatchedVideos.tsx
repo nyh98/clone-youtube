@@ -12,10 +12,13 @@ type Watched = [{ [key: string]: string }];
 export default function WatchedVideos() {
   const { watchedData }: WatchedData = useOutletContext();
 
-  console.log(watchedData);
-
   return (
     <div className="grid grid-cols-4 gap-3 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1">
+      {watchedData.length <= 0 ? (
+        <div className="text-center font-semibold">시청 기록이 없습니다 😁</div>
+      ) : (
+        ''
+      )}
       {watchedData.map(item => (
         <VideoBox
           key={item.videoid}

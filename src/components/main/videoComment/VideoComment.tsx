@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useQuery } from 'react-query';
 import getVideoComment from '../../../APIs/getVideoComment';
 import LoadingPage from '../../../pages/LoadingPage';
@@ -15,9 +15,13 @@ interface Item {
 }
 
 export default function VideoComment({ videoId, commentCount }: Comment) {
-  const { isLoading, error, data } = useQuery('videoComments', () =>
+  const { isLoading, refetch, error, data } = useQuery('videoComments', () =>
     getVideoComment(videoId)
   );
+
+  useEffect(() => {
+    refetch();
+  }, [videoId]);
 
   if (isLoading) return <LoadingPage />;
 
