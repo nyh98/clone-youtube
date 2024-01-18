@@ -33,19 +33,18 @@ export default function PopularVideos() {
 
   return (
     <div className="grid grid-cols-4 gap-3 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1">
-      {items &&
-        items.map((item: Item) => (
-          <VideoBox
-            key={item.id}
-            title={item.snippet.title}
-            thumbnail={item.snippet.thumbnails.medium.url}
-            link={item.id}
-            publishedAt={item.snippet.publishedAt}
-            channelTitle={item.snippet.channelTitle}
-            viewCount={item.statistics.viewCount}
-            profileURL={getProfileURL(item.snippet.channelId)}
-          />
-        ))}
+      {items.map((item: Item) => (
+        <VideoBox
+          key={item.id}
+          title={item.snippet.title}
+          thumbnail={item.snippet.thumbnails.medium.url}
+          link={item.id}
+          publishedAt={item.snippet.publishedAt}
+          channelTitle={item.snippet.channelTitle}
+          viewCount={item.statistics.viewCount}
+          profileURL={getProfileURL(item.snippet.channelId)}
+        />
+      ))}
     </div>
   );
 }
