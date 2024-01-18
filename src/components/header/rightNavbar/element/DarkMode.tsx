@@ -32,9 +32,12 @@ export default function DarkMode() {
   }, [darkMode]);
 
   return (
-    <div className="w-6 h-6  hover:cursor-pointer flex justify-center items-center z-10">
+    <div className="w-6 h-6  hover:cursor-pointer flex justify-center items-center ">
       {darkMode ? <PiSunBold /> : <MdDarkMode />}
-      <div className="w-full h-full absolute" onClick={handleDarkMode}></div>
+      <div
+        className="w-full h-full absolute z-10"
+        onClick={handleDarkMode}
+      ></div>
     </div>
   );
 }

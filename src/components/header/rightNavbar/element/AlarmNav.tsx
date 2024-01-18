@@ -5,10 +5,10 @@ export default function AlarmNav() {
   const [alarm, setAlarm] = useState(false);
 
   return (
-    <div className="w-6 h-6 hover:cursor-pointer flex justify-center items-center z-10">
+    <div className="w-6 h-6 hover:cursor-pointer flex justify-center items-center ">
       <BsBell />
       <div
-        className="absolute w-full h-full"
+        className="absolute w-full h-full z-10"
         onClick={() => {
           setAlarm(!alarm);
         }}

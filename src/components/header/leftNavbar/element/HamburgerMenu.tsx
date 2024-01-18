@@ -8,9 +8,9 @@ export default function HamburgerMenu() {
 
   return (
     <div className="group w-10 h-auto justify-center items-center flex">
-      <RxHamburgerMenu className="w-6 h-6 absolute hover:cursor-pointer z-10" />
+      <RxHamburgerMenu className="w-6 h-6 absolute hover:cursor-pointer" />
       <div
-        className="absolute w-full h-full"
+        className="absolute w-full h-full z-10"
         onClick={() => setHamburgerCheck(!hamburgerMenuChecked)}
       ></div>
     </div>
