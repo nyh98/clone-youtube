@@ -8,7 +8,7 @@ export default function CenterNav() {
   const { hamburgerMenuChecked } = useContext(hamburgerContext);
   return (
     <Link
-      to={'/watch'}
+      to={'/watched'}
       style={hamburgerMenuChecked ? { borderBottomWidth: '1px' } : {}}
       className="hover:cursor-pointer"
     >

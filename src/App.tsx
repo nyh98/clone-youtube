@@ -6,7 +6,7 @@ import ErrorPage from './pages/ErrorPage';
 import VideoDetail from './pages/videos/VideoDetail';
 import SearchVideos from './pages/videos/SearchVideos';
 import SubscribePage from './pages/SubscribePage';
-import WatchVideos from './pages/videos/WatchVideos';
+import WatchedVideos from './pages/videos/WatchedVideos';
 
 function App() {
   const queryClient = new QueryClient({
@@ -41,8 +41,8 @@ function App() {
           element: <SubscribePage />,
         },
         {
-          path: '/watch',
-          element: <WatchVideos />,
+          path: '/watched',
+          element: <WatchedVideos />,
         },
       ],
     },
