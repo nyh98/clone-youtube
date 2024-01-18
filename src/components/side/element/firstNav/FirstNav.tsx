@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import HomeNav from './children/HomeNav';
 import SubscribeNav from './children/SubscribeNav';
 
