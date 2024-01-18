@@ -26,7 +26,6 @@ export default function SideVideos({ channelTitle }: VideoTitle) {
     refetch();
   }, [channelTitle]);
 
-  console.log(channelTitle); //videoTitle 이 재할당 되지않음
   if (isLoading) return <LoadingPage />;
 
   if (error) return <ErrorPage />;
