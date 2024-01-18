@@ -8,8 +8,9 @@ export default function SideNav() {
   const { hamburgerMenuChecked } = useContext(hamburgerContext);
   return (
     <div
-      style={hamburgerMenuChecked ? { width: '200px' } : { width: '80px' }}
-      className="flex flex-col bg-white z-10 h-full max-sm:hidden  dark:bg-zinc-900"
+      className={`flex flex-col bg-white z-10 h-full ${
+        hamburgerMenuChecked ? 'w-[200px]' : 'max-sm:hidden w-[80px]'
+      }  dark:bg-zinc-900`}
     >
       <FirstNav />
       <CenterNav />

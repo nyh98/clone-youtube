@@ -15,7 +15,7 @@ export default function AlarmNav() {
       ></div>
       <div
         style={{ display: alarm ? '' : 'none' }}
-        className="fixed w-[480px] aspect-square top-[60px] right-12 rounded-xl border-[1px] z-10 hover:cursor-default max-sm:right-0 bg-white  dark:bg-zinc-900"
+        className="fixed w-[480px] aspect-square top-[60px] right-12 rounded-xl border-[1px] z-20 hover:cursor-default max-sm:right-0 bg-white  dark:bg-zinc-900"
       >
         <div className="border-b-[1px] w-full h-[10%] flex items-center pl-5">
           알림
