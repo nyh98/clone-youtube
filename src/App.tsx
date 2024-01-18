@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 import ErrorPage from './pages/ErrorPage';
 import VideoDetail from './pages/videos/VideoDetail';
 import SearchVideos from './pages/videos/SearchVideos';
+import SubscribePage from './pages/SubscribePage';
 
 function App() {
   const queryClient = new QueryClient({
@@ -34,6 +35,7 @@ function App() {
           path: '/search/:keyWord',
           element: <SearchVideos />,
         },
+        { path: '/subscribe', element: <SubscribePage /> },
       ],
     },
   ]);
