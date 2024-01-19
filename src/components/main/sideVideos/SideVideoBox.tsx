@@ -17,7 +17,7 @@ export default function SideVideoBox({
   publishedAt,
 }: SideVideo) {
   return (
-    <div className="flex ml-4 mb-3 pr-4">
+    <div className="flex ml-4 mb-3 pr-4 w-full max-lg:ml-0">
       <Link to={`/video/${videoId}`} className="flex-shrink-0 ">
         <img
           src={thumbnailURL}
@@ -26,7 +26,9 @@ export default function SideVideoBox({
         />
       </Link>
       <div className="ml-2">
-        <div className="line-clamp-2 font-semibold">{title}</div>
+        <Link to={`/video/${videoId}`} className="line-clamp-2 font-semibold">
+          {title}
+        </Link>
         <div className="text-xs line-clamp-1">{channelTitle}</div>
         <div className="text-xs">{getRelativeTime(publishedAt)}</div>
       </div>

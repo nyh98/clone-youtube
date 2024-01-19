@@ -64,24 +64,20 @@ export default function VideoDetail() {
   const item = data?.video.items[0];
 
   return (
-    <div className="flex w-full h-full">
-      <div className="w-full h-full flex ">
-        <div className="">
-          <VideoPlayer videoId={videoId} />
-          <VideoSnippet
-            title={item.snippet.title}
-            channelTitle={item.snippet.channelTitle}
-            viewCount={item.statistics.viewCount}
-            publishedAt={item.snippet.publishedAt}
-            profileURL={data?.channelDetail[0].profileURL}
-          />
-          <VideoComment
-            videoId={videoId}
-            commentCount={item.statistics.commentCount}
-          />
-        </div>
-        <SideVideos channelTitle={item.snippet.channelTitle} />
-      </div>
+    <div className="w-full h-full grid grid-cols-[repeat(7,1fr)] auto-rows-auto">
+      <VideoPlayer videoId={videoId} />
+      <VideoSnippet
+        title={item.snippet.title}
+        channelTitle={item.snippet.channelTitle}
+        viewCount={item.statistics.viewCount}
+        publishedAt={item.snippet.publishedAt}
+        profileURL={data?.channelDetail[0].profileURL}
+      />
+      <SideVideos channelTitle={item.snippet.channelTitle} />
+      <VideoComment
+        videoId={videoId}
+        commentCount={item.statistics.commentCount}
+      />
     </div>
   );
 }

@@ -9,7 +9,7 @@ interface videos {
 export default function VideoBox({
   title,
   thumbnail,
-  link,
+  videoId,
   publishedAt,
   channelTitle,
   viewCount,
@@ -17,7 +17,7 @@ export default function VideoBox({
 }: videos) {
   return (
     <div className="w-full h-full mx-3">
-      <Link to={`/video/${link}`}>
+      <Link to={`/video/${videoId}`}>
         <img
           src={thumbnail}
           alt={'profile'}
@@ -30,6 +30,7 @@ export default function VideoBox({
         viewCount={viewCount}
         publishedAt={publishedAt}
         profileURL={profileURL}
+        videoId={videoId}
       />
       <div className="w-[20%] h-full"></div>
     </div>

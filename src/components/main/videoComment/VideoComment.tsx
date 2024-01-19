@@ -30,7 +30,7 @@ export default function VideoComment({ videoId, commentCount }: Comment) {
   const { items } = data;
 
   return (
-    <div className="w-4/5">
+    <div className="w-4/5 col-start-1 col-end-6 row-start-6 ">
       <div className="font-black text-xl mt-4">
         총 댓글 {Number(commentCount).toLocaleString('ko-KR')}개
       </div>

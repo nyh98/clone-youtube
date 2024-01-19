@@ -38,7 +38,7 @@ export default function PopularVideos() {
           key={item.id}
           title={item.snippet.title}
           thumbnail={item.snippet.thumbnails.medium.url}
-          link={item.id}
+          videoId={item.id}
           publishedAt={item.snippet.publishedAt}
           channelTitle={item.snippet.channelTitle}
           viewCount={item.statistics.viewCount}
