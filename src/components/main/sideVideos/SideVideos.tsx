@@ -33,7 +33,7 @@ export default function SideVideos({ channelTitle }: VideoTitle) {
   const { items } = data;
 
   return (
-    <div className="flex flex-col col-start-6 col-end-[-1] row-start-1 max-lg:col-start-1 max-lg:row-start-3">
+    <div className="flex flex-col  grid-in-side max-lg:col-start-1 max-lg:row-start-3">
       {items.map((item: Item) => {
         return (
           <SideVideoBox

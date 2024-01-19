@@ -5,7 +5,7 @@ import getRelativeTime from '../utils/getRelativeTime';
 import { Link } from 'react-router-dom';
 
 interface snippet {
-  [key: string]: string;
+  [key: string]: any;
 }
 
 export default function VideoSnippet({
@@ -17,7 +17,7 @@ export default function VideoSnippet({
   videoId,
 }: snippet) {
   return (
-    <div className="flex col-start-1 col-end-6 row-start-4 max-lg:row-start-2">
+    <div className="flex">
       <img
         src={profileURL}
         alt=""

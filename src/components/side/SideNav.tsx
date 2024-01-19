@@ -9,7 +9,7 @@ export default function SideNav() {
   return (
     <div
       className={`flex flex-col bg-white z-10 h-full ${
-        hamburgerMenuChecked ? 'w-[200px] max-sm:hidden' : ' w-[80px]'
+        hamburgerMenuChecked ? ' w-[200px]' : 'w-[80px] max-sm:hidden'
       }  dark:bg-zinc-900`}
     >
       <FirstNav />

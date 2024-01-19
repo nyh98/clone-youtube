@@ -8,6 +8,7 @@ import ErrorPage from '../ErrorPage';
 import VideoSnippet from '../../components/main/VideoSnippet';
 import VideoComment from '../../components/main/videoComment/VideoComment';
 import SideVideos from '../../components/main/sideVideos/SideVideos';
+import VideoDescription from '../../components/main/VideoDescription';
 
 interface WatchedData {
   watchedData: Watched;
@@ -36,6 +37,11 @@ export default function VideoDetail() {
     if (data) {
       setWatchedData((watchedData: Watched) => {
         const item = data?.video.items[0];
+
+        console.log(watchedData.findIndex(video => video.videoid === videoId));
+        console.log(
+          watchedData.findIndex(video => video.videoid === videoId) === -1
+        );
         //중복 확인
         if (watchedData.findIndex(video => video.videoid === videoId) === -1) {
           return [
@@ -55,7 +61,7 @@ export default function VideoDetail() {
         return watchedData;
       });
     }
-  }, [data]);
+  }, [videoId, data]);
 
   if (isLoading) return <LoadingPage />;
 
@@ -64,20 +70,24 @@ export default function VideoDetail() {
   const item = data?.video.items[0];
 
   return (
-    <div className="w-full h-full grid grid-cols-[repeat(7,1fr)] auto-rows-auto">
-      <VideoPlayer videoId={videoId} />
-      <VideoSnippet
-        title={item.snippet.title}
-        channelTitle={item.snippet.channelTitle}
-        viewCount={item.statistics.viewCount}
-        publishedAt={item.snippet.publishedAt}
-        profileURL={data?.channelDetail[0].profileURL}
-      />
-      <SideVideos channelTitle={item.snippet.channelTitle} />
+    <div className="w-full h-full grid grid-areas-layout grid-cols-layout grid-rows-layout">
+      <div className="grid-in-video w-full aspect-video max-lg:col-end-[-1]">
+        <VideoPlayer videoId={videoId} />
+        <VideoSnippet
+          title={item.snippet.title}
+          channelTitle={item.snippet.channelTitle}
+          viewCount={item.statistics.viewCount}
+          videoId={videoId}
+          publishedAt={item.snippet.publishedAt}
+          profileURL={data?.channelDetail[0].profileURL}
+        />
+        <VideoDescription description={item.snippet.description} />
+      </div>
       <VideoComment
         videoId={videoId}
         commentCount={item.statistics.commentCount}
       />
+      <SideVideos channelTitle={item.snippet.channelTitle} />
     </div>
   );
 }

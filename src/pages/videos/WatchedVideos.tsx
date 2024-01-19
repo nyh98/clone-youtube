@@ -26,7 +26,7 @@ export default function WatchedVideos() {
           key={item.videoid}
           title={item.title}
           thumbnail={item.thumbnail}
-          link={item.videoid}
+          videoId={item.videoid}
           publishedAt={item.publishedAt}
           channelTitle={item.channelTitle}
           viewCount={item.viewCount}
