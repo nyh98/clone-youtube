@@ -38,10 +38,6 @@ export default function VideoDetail() {
       setWatchedData((watchedData: Watched) => {
         const item = data?.video.items[0];
 
-        console.log(watchedData.findIndex(video => video.videoid === videoId));
-        console.log(
-          watchedData.findIndex(video => video.videoid === videoId) === -1
-        );
         //중복 확인
         if (watchedData.findIndex(video => video.videoid === videoId) === -1) {
           return [

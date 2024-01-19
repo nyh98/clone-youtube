@@ -10,8 +10,9 @@ interface Item {
 }
 
 export default async function getPopularVideos() {
-  console.log('인기 동영상 데이터 요청 중...');
-  return fetch('data/popular.json') //인기 동영상 요청
+  return fetch(
+    `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=25&regionCode=KR&key=${process.env.REACT_APP_API_KEY}`
+  ) //인기 동영상 요청
     .then(res => res.json())
     .then(async videos => {
       //channelId 추출
