@@ -34,12 +34,13 @@ export default function VideoDetail() {
 
   //시청 기록에 추가
   useEffect(() => {
+    console.log(Boolean(data), data);
     if (data) {
       setWatchedData((watchedData: Watched) => {
         const item = data?.video.items[0];
 
         //중복 확인
-        if (watchedData.findIndex(video => video.videoid === videoId) === -1) {
+        if (watchedData.findIndex(video => video.videoid === item.id) === -1) {
           return [
             ...watchedData,
             {
@@ -49,7 +50,7 @@ export default function VideoDetail() {
               publishedAt: item.snippet.publishedAt,
               profileURL: data?.channelDetail[0].profileURL,
               thumbnail: item.snippet.thumbnails.medium.url,
-              videoid: videoId,
+              videoid: item.id,
             },
           ];
         }
@@ -57,7 +58,7 @@ export default function VideoDetail() {
         return watchedData;
       });
     }
-  }, [videoId, data]);
+  }, [data]);
 
   if (isLoading) return <LoadingPage />;
 
@@ -66,8 +67,8 @@ export default function VideoDetail() {
   const item = data?.video.items[0];
 
   return (
-    <div className="w-full h-full grid grid-areas-layout grid-cols-layout grid-rows-layout">
-      <div className="grid-in-video w-full aspect-video max-lg:col-end-[-1]">
+    <div className="w-full h-full grid grid-areas-layout grid-cols-layout grid-rows-">
+      <div className="grid-in-video max-lg:col-end-[-1]">
         <VideoPlayer videoId={videoId} />
         <VideoSnippet
           title={item.snippet.title}

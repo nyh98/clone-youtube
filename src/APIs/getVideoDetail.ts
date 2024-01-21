@@ -14,5 +14,6 @@ export default async function getVideoDetail(videoId: string | undefined) {
 }
 
 /**
+ * '/data/videoDetail.json'
  * `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cstatistics&id=${videoId}&key=${process.env.REACT_APP_API_KEY}`
  */

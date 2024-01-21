@@ -7,7 +7,7 @@ module.exports = {
       gridTemplateAreas: {
         layout: [
           'video video side',
-          'video video side',
+          'comment comment side',
           'comment comment side',
         ],
       },
