@@ -7,7 +7,7 @@ import HamburgerMenuContext from '../context/HamburgerMenuContext';
 export default function Home() {
   const [watchedData, setWatchedData] = useState([]);
   return (
-    <div className="h-full w-full absolute dark:bg-zinc-900">
+    <div className="h-full w-full fixed dark:bg-zinc-900">
       <HamburgerMenuContext>
         <Header />
         <div className="flex w-full h-[90%]">
