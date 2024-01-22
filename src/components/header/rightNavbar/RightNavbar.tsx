@@ -5,7 +5,7 @@ import CustomButton from '../../utils/CustomButton';
 
 export default function RightNavbar() {
   return (
-    <nav className="flex ">
+    <nav className="flex justify-end">
       <CustomButton>
         <DarkMode />
       </CustomButton>

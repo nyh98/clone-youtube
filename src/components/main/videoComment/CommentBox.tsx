@@ -18,7 +18,7 @@ export default function CommentBox({
     <div className="flex mt-5">
       <img
         src={authorProfileImageUrl}
-        alt=""
+        alt="comment"
         className="w-10 h-10 rounded-full"
       />
       <div className="ml-3">
@@ -28,7 +28,9 @@ export default function CommentBox({
             {getRelativeTime(updatedAt)}
           </span>
         </div>
-        <div className="max-md:line-clamp-2 my-1 font-light">{textDisplay}</div>
+        <div className="max-md:line-clamp-2 my-1 whitespace-pre-line font-light">
+          {textDisplay.replaceAll('<br>', '\n ')}
+        </div>
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ module.exports = {
         layout: 'repeat(3,1fr)',
       },
       gridTemplateRows: {
-        layout: '',
+        layout: '1fr',
       },
     },
   },

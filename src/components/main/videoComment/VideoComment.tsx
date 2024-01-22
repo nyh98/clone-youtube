@@ -15,8 +15,12 @@ interface Item {
 }
 
 export default function VideoComment({ videoId, commentCount }: Comment) {
-  const { isLoading, refetch, error, data } = useQuery('videoComments', () =>
-    getVideoComment(videoId)
+  const { isLoading, refetch, error, data } = useQuery(
+    'videoComments',
+    () => getVideoComment(videoId),
+    {
+      staleTime: 1000 * 60 * 5,
+    }
   );
 
   useEffect(() => {

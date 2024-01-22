@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useQuery } from 'react-query';
 import searchVideo from '../../../APIs/searchVideo';
 import LoadingPage from '../../../pages/LoadingPage';
@@ -15,9 +15,10 @@ interface VideoTitle {
 
 export default function SideVideos({ channelTitle }: VideoTitle) {
   const { isLoading, refetch, error, data } = useQuery(
-    'sideVideos',
+    ['sideVideos', channelTitle],
     () => searchVideo(channelTitle),
     {
+      staleTime: 1000 * 60 * 5,
       refetchOnWindowFocus: false,
     }
   );

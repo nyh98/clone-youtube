@@ -32,7 +32,7 @@ export default function PopularVideos() {
   const { items } = data?.videos;
 
   return (
-    <div className="grid grid-cols-4 gap-3 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1">
+    <div className="grid grid-cols-4 gap-3 justify-items-center max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1">
       {items.map((item: Item) => (
         <VideoBox
           key={item.id}

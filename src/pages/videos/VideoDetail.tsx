@@ -34,7 +34,6 @@ export default function VideoDetail() {
 
   //시청 기록에 추가
   useEffect(() => {
-    console.log(Boolean(data), data);
     if (data) {
       setWatchedData((watchedData: Watched) => {
         const item = data?.video.items[0];
@@ -67,7 +66,7 @@ export default function VideoDetail() {
   const item = data?.video.items[0];
 
   return (
-    <div className="w-full h-full grid grid-areas-layout grid-cols-layout grid-rows-">
+    <div className="w-full h-full grid grid-areas-layout grid-cols-layout grid-rows-layout">
       <div className="grid-in-video max-lg:col-end-[-1]">
         <VideoPlayer videoId={videoId} />
         <VideoSnippet
