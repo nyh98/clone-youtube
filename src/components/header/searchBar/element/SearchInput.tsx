@@ -12,7 +12,6 @@ export default function SearchInput() {
         action=""
         onSubmit={e => {
           e.preventDefault();
-          setKeyWord('');
           navigate(`/search/${keyWord}`);
         }}
         className="flex"
@@ -23,7 +22,7 @@ export default function SearchInput() {
           value={keyWord}
           onChange={e => setKeyWord(e.target.value)}
           id=""
-          className="h-10 border-solid flex-1 border shadow focus:outline-none pt-0.5 pb-0.5 border-slate-300 pl-3 rounded-s-full"
+          className="h-10 border-solid flex-1 border shadow focus:outline-none py-1 border-slate-300 pl-5 rounded-s-full"
         />
         <SearchButton />
       </form>
