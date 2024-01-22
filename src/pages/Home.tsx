@@ -10,9 +10,9 @@ export default function Home() {
     <div className="h-full w-full fixed dark:bg-zinc-900">
       <HamburgerMenuContext>
         <Header />
-        <div className="flex w-full h-[90%]">
+        <div className="flex w-full h-full">
           <SideNav />
-          <main className="px-5 pt-10 w-full h-full overflow-auto dark:text-white">
+          <main className="px-5 w-full h-full overflow-auto dark:text-white">
             <Outlet context={{ watchedData, setWatchedData }} />
           </main>
         </div>
