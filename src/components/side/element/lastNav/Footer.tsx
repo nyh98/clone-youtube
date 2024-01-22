@@ -16,7 +16,7 @@ export default function Footer() {
       </div>
       <div
         style={{ display: clickMe ? '' : 'none' }}
-        className="w-[500px] flex flex-col justify-center items-center aspect-video rounded-xl text-center bottom-40 border bg-white fixed dark:bg-zinc-900 dark:text-white"
+        className="w-[500px] flex flex-col justify-center items-center aspect-video rounded-xl text-center max-sm:w-[300px] bottom-20 border bg-white fixed dark:bg-zinc-900 dark:text-white"
       >
         <p>학습용으로 제작한 유튜브 클론 페이지 입니다. by nyh98</p>
         <p>
