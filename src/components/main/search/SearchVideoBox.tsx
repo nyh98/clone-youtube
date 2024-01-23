@@ -20,7 +20,7 @@ export default function SearchVideoBox({
   description,
 }: SideVideo) {
   return (
-    <div className="flex mx-12 pt-3 pb-3   border-b-2 max-md:flex-col ">
+    <div className="flex pt-3 pb-3   border-b-2 max-md:flex-col ">
       <Link
         to={`/video/${videoId}`}
         className="flex-shrink-0 w-[360px] max-md:w-full "
