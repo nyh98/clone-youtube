@@ -25,7 +25,7 @@ export default function VideoComment({ videoId, commentCount }: Comment) {
 
   useEffect(() => {
     refetch();
-  }, [videoId]);
+  }, [videoId, refetch]);
 
   if (isLoading) return <LoadingPage />;
 
@@ -36,9 +36,11 @@ export default function VideoComment({ videoId, commentCount }: Comment) {
   return (
     <div className="w-4/5 grid-in-comment max-lg:col-end-[-1] max-lg:row-start-[-1]">
       <div className="font-black text-xl mt-4">
-        총 댓글 {Number(commentCount).toLocaleString('ko-KR')}개
+        {items
+          ? `총 댓글${Number(commentCount).toLocaleString('ko-KR')}개`
+          : '해당 비디오 댓글을 가져올 수 없습니다 댓글이 비활성화 상태일 수 있습니다 '}
       </div>
-      {items.map((item: Item) => {
+      {items?.map((item: Item) => {
         const { snippet } = item.snippet.topLevelComment;
 
         return (
