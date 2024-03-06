@@ -10,4 +10,4 @@ https://yongtube-nyh98.netlify.app/
 - youtube API
 - typescript
 - tailwind
-- netlify
+- netlify(배포)
